@@ -40,8 +40,7 @@ celebrated for me. And now of two things you must choose one.
 Hither you shall come back to me on a certain night alone bringing 
 to me the answer of those whose names I have given you; and I 
 will tell you how you may be made whole, and in the mean time you 
-need not fear the sight of a wood fire. [^2] Or otherwise your flesh  
-shall rot and your skin shall dry up and shall fall off from you utterly 
+need not fear the sight of a wood fire. [^2] Or otherwise your flesh shall rot and your skin shall dry up and shall fall off from you utterly 
 in a short time. Know moreover that I have met you now because 
 to-day you have not heard mass nor the gospel of John (namely 
 in principio), and have not seen the consecration of our Lord's body 
@@ -92,13 +91,16 @@ carried out he came home, and a certain officious neighbour of his,
 healing that he had to report to the ghost on a certain night all 
 that he had done at York, adjured him, saying, “God forbid that 
 you go to this ghost without telling me of your going and of the 
-day and the hour.” And being so constrained, for fear of displeasing 
+day and the hour.” 
+
+And being so constrained, for fear of displeasing 
 God, he told him, waking him up from sleep and saying, “I am 
 going now. If you wish to come with me let us set off and I will give 
 you a part of the writings that I carry on me because of night fears.” 
+
 Then the other said, “Do you want me to go with you,” and the 
 tailor said, You must see to that; I will give no advice to you.” 
-Then at last the other said, “ Get you gone in the name of the Lord 
+Then at last the other said, “Get you gone in the name of the Lord 
 and may God prosper you in all things.”[^7] 
 
 After these words he came to the appointed place and made a great circle with a cross[^8]
@@ -106,27 +108,28 @@ and he had upon him the four gospels and other holy words and he
 stood in the middle of the circle and he placed four reliquaries in 
 the form of a cross on the edge of the circle; and on the reliquaries 
 were written words of salvation, namely Jesus of Nazareth, etc., 
-and he waited for the coming of the ghost. He came at length in     
-the form of a she-goat and went thrice round the circle saying, 
+and he waited for the coming of the ghost. He came at length in the form of a she-goat and went thrice round the circle saying, 
 “Ah! ah! ah! ” And when he conjured the she-goat she fell 
 prone upon the ground, and rose up again in the likeness of a man 
 of great stature, horrible and thin, and like one of the dead kings 
-in pictures.[^9] And when he was asked whether the tailor's labour 
+in pictures.[^9] 
+
+And when he was asked whether the tailor's labour 
 had been of service to him, he answered, “Yes, praised be God. 
 And I stood at your back when you buried my absolution in my 
 grave at the ninth hour and were afraid. No wonder you were 
 afraid, for three devils were present there who have tormented me 
 in every way from the time when you first conjured me to the time 
 of my absolution, suspecting that they would have me but very little 
-time in their custody to torment me. 
-
-Know therefore that on Monday next I shall pass into everlasting joy with thirty other 
+time in their custody to torment me. Know therefore that on Monday next I shall pass into everlasting joy with thirty other 
 spirits. Go now to a certain beck and you will find a broad stone; 
 lift it up and under it you will find a sand stone. Wash your whole 
 body with water and rub it with the stone and you will be whole 
-in a few days."[^10] When he was asked the names of the two ghosts, 
-he answered, I cannot tell you their names. And when asked 
-about their condition he answered that one was a layman and a 
+in a few days."[^10] 
+
+When he was asked the names of the two ghosts, 
+he answered, "I cannot tell you their names." And when asked 
+about their condition he answered that "one was a layman and a 
 soldier and was not of these parts, and he killed a woman great 
 with child and he will find no remedy before the day of judgment, 
 and you will see him in the form of a bullock without mouth or eyes 
@@ -136,13 +139,16 @@ blowing upon a horn; and he will find a remedy and he will be conjured by a cert
 
 And then the tailor asked the ghost of his own condition and received answer, "You are keeping wrongfully the cap and coat of one who was your friend and companion in the wars beyond 
 the seas. Give satisfaction to him or you will pay dearly for it.” 
+
 And the tailor said, " I know not where he lives ”; and the ghost 
 answered, " He lives in such a town near to the castle of Alnwick.” 
+
 When further he was asked, "What is my greatest fault ?” the ghost 
 answered, " Your greatest fault is because of me.” And the man 
-said, How and in what way ? ” And the ghost answered, " Because the people sin telling lies concerning you and bringing scandal on other dead men saying the dead man who was conjured was he or he— or he.” And he asked the ghost, "What shall I do? I 
-will reveal your name?” And he said, "No; but if you stay in 
-one place you will be rich, and in another place you will be poor, 
+said, How and in what way ? ” 
+And the ghost answered, " Because the people sin telling lies concerning you and bringing scandal on other dead men saying the dead man who was conjured was he or he— or he.” 
+
+And he asked the ghost, "What shall I do? I will reveal your name?” And he said, "No; but if you stay in one place you will be rich, and in another place you will be poor, 
 and you have here certain enemies .”[^11] 
 
 Then the spirit said, " I can stay no longer talking with you.” And as they went their different 
@@ -170,7 +176,7 @@ came home he was seriously ill for several days. [^13]
 
 [^7]: The conduct of the officious neighbour who insists upon being informed of the tailor's assignation with the ghost and then backs out of accompanying him is amusing. — M.R.J.
 
-[^8]: Whether a circle enclosing a cross or a circle drawn with a cross I do not know M.R.J. I think there can be no doubt that it was a circle with a cross drawn inside it at the points of which, where they meet the circumference, the reliquaries (*monilia*) were placed. I am not quite sure whether the passage does not mean that the names of the four gospels (i.e. the evangelists) and other sacred words were written in the quadrants of the circle. The magic circle plays a great part in a case of sorcery recorded in York Reg. Bainbridge and printed in *Archaeol. Journal*, xvi. It was here drawn on a huge sheet of parchment in a private house by an ingenious person who induced a number of people to combine with him m conjuring demons to reveal the hiding-place of a treasure at Mixendale Head, near Halifax. There is no mention of its being drawn with a cross or of a cross inscribed in it; it was copied from a conjuring book. It was inscribed however, "cum carecteribus et nominibus aliusque signis supersticiosis”; and one deponent, who arrived unexpectedly while the performance was going on, saw that the party “had a grete masse boke opyn afore theyme, and wrote oute what they wold”; cf. the “other sacred words” which the present spirit ordered his conjuror to bring with him. Are the *monilia* necessarily reliquaries? I should have thought that, in the present case, they might rather be medallions on which the *titulus triumphalis* was engraved, like the *laminae* of lead inscribed with figures of “Oberion,” “Storax,” and other spirits which formed part of the Halifax conjurors’ equipment. The text seems to imply a figure of this kind: — A.H.T.
+[^8]: Whether a circle enclosing a cross or a circle drawn with a cross I do not know M.R.J. I think there can be no doubt that it was a circle with a cross drawn inside it at the points of which, where they meet the circumference, the reliquaries (*monilia*) were placed. I am not quite sure whether the passage does not mean that the names of the four gospels (i.e. the evangelists) and other sacred words were written in the quadrants of the circle. The magic circle plays a great part in a case of sorcery recorded in York Reg. Bainbridge and printed in *Archaeol. Journal*, xvi. It was here drawn on a huge sheet of parchment in a private house by an ingenious person who induced a number of people to combine with him in conjuring demons to reveal the hiding-place of a treasure at Mixendale Head, near Halifax. There is no mention of its being drawn with a cross or of a cross inscribed in it; it was copied from a conjuring book. It was inscribed however, "cum carecteribus et nominibus aliusque signis supersticiosis”; and one deponent, who arrived unexpectedly while the performance was going on, saw that the party “had a grete masse boke opyn afore theyme, and wrote oute what they wold”; cf. the “other sacred words” which the present spirit ordered his conjuror to bring with him. Are the *monilia* necessarily reliquaries? I should have thought that, in the present case, they might rather be medallions on which the *titulus triumphalis* was engraved, like the *laminae* of lead inscribed with figures of “Oberion,” “Storax,” and other spirits which formed part of the Halifax conjurors’ equipment. The text seems to imply a figure of this kind: — A.H.T.
 
     ![Diagram](aht-diagram.png)
 
