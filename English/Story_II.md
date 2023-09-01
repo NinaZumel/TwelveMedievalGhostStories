@@ -167,7 +167,7 @@ came home he was seriously ill for several days. [^13]
 Diagram for footnote 9, below.
 
 
-[^1]: Great pains have been taken through- out to conceal the name of the ghost. He must have been a man of quality whose relatives might have objected to stories being told about him. — M.R.J.
+[^1]: Great pains have been taken throughout to conceal the name of the ghost. He must have been a man of quality whose relatives might have objected to stories being told about him. — M.R.J.
 
 [^2]: In the Danish tales something like this is to be found. Kristensen *Sagn og overtro* 1866, No. 585: After seeing a phantom funeral “the man was wise enough to go to the stove and look at the fire before he saw (candle- or lamp-) light. For when people see anything of the kind they are sick if they cannot get at fire before light.” Ibid., No. 371.: “He was very sick when he caught sight of the light.” The same in No. 369. In Part II of the same (1888), No. 690: “When you see anything supernatural, you should peep over the door before going into the house. You must see the light before the light sees you.” Collection of 1883, No. 193: “When he came home, he called to his wife to put out the light before he came in, but she did not and he was so sick they thought he would have died.” These examples are enough to show that there was risk attached to seeing light after a ghostly encounter. — M.R.J.
 
