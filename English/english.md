@@ -1,7 +1,7 @@
 # TWELVE MEDIEVAL GHOST STORIES. 
 
 The following ghost stories were published by Dr. M. R. James, 
-the Provost of Eton College, in the *English Historical Review* of 
+the Provost of Eton College, in the English Historical Review of 
 July 1922, in a careful transcript from the original Latin. Their 
 connection with Byland Abbey, the appearance in them of well-known Yorkshire villages and names, recommended them for republication in the Yorks. Arch. Journal. They have been translated into English to make them accessible to a wider public than could be 
 expected to penetrate the medieval Latin. Dr. James’ introduction 
