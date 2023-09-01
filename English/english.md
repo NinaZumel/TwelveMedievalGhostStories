@@ -73,7 +73,7 @@ difficult; some words have baffled me. The Latin is very refreshing. - M. R. Jam
 
 [XI.](Story_XI.md)
 
-[# XII. Concerning the sister of old Adam of Lond and how she was seized after her death according to the account given by old men](Story_XII.md)
+[XII. Concerning the sister of old Adam of Lond and how she was seized after her death according to the account given by old men](Story_XII.md)
 
 
 ## Topographical Notes. 
