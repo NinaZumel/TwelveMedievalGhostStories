@@ -55,26 +55,10 @@ past. A study of local records, impossible to me, might not improbably throw lig
 The hand is not a very easy one, and the last page of all is really 
 difficult; some words have baffled me. The Latin is very refreshing. - M. R. James. 
 
-## I. Concerning the ghost of a certain labourer at Ryevaulx who helped a man to carry beans. 
+## The Stories
 
-A certain man was riding on his horse carrying on its back a 
-peck of beans. The horse stumbled on the road and broke its shin 
-bone; which when the man saw he took the beans on his own 
-back. And while he was walking on the road he saw as it were a 
-horse standing on its hind feet and holding up its fore feet. In 
-alarm he forbade the horse in the name of Jesus Christ to do him 
-any harm. Upon this it went with him in the shape of a horse, and 
-in a little while appeared to him in the likeness of a revolving haycock 1 with a light in the middle; to which the man said, “God forbid that you bring evil upon me.” At these words it appeared 
-in the shape of a man and the traveller conjured him. Then the 
-spirit told him his name and the reason (of his walking) and the 
-remedy, and he added, “Permit me to carry your beans and to help 
-you.” And thus he did as far as the beck but he was not willing 
-to pass over it ; and the living man knew not how the bag of beans 
-was placed again on his own back. And afterwards he caused 
-the ghost to be absolved and masses to be sung for him and he was 
-eased. 
+[[I. Concerning the ghost of a certain labourer at Ryevaulx who helped a man to carry beans]]
 
-1. So in No. II a ghost is said to appear “in specie dumi” (as I read it), i.e. of a thorn bush. In several of these stories the ghosts are liable to many changes of form. — M.R.J.
 
 ## II. Concerning a wonderful encounter between a ghost and a living man in the time of King Richard II. 
 
@@ -95,8 +79,7 @@ ground from the horse upon which he was riding ; and he lay stretched
 upon the ground as it were in a swoon and lifeless, and he was 
 very frightened. Then, rising and strong in the faith, he fought 
 with him with his sword until he was weary; and it seemed to him 
-that he was striking a peat-stack; and he forbade him and conjured him in the name of God, saying, “God forbid that you have 
-power to hurt me on this occasion, but begone.” And again it 
+that he was striking a peat-stack; and he forbade him and conjured him in the name of God, saying, “God forbid that you have power to hurt me on this occasion, but begone.” And again it 
 flew off with a horrible screaming as it were the space of the flight 
 of an arrow. And the third time it appeared to the tailor as he was 
 carrying the cross of his sword upon his breast for fear, and it met 
@@ -108,14 +91,14 @@ that he speak with me, and do me no wrong, but stand fast and
 answer my questions and tell me his name and the cause of his 
 punishment and the remedy that belongs to it.” And he did so 
 And the spirit, panting terribly and groaning, said, “Thus and 
-thus did I, and for thus doing I have been excommunicated . 1 Go 
+thus did I, and for thus doing I have been excommunicated.<sup>1</sup> Go 
 therefore to a certain priest and ask him to absolve me. And it 
 behoves me to have the full number of nine times twenty masses 
 celebrated for me. And now of two things you must choose one. 
 Hither you shall come back to me on a certain night alone bringing 
 to me the answer of those whose names I have given you; and I 
 will tell you how you may be made whole, and in the mean time you 
-need not fear the sight of a wood fire.2 Or otherwise your flesh 
+need not fear the sight of a wood fire.<sup>2</sup> Or otherwise your flesh 
 
 
 1. Great pains have been taken through- out to conceal the name of the ghost. He must have been a man of quality whose relatives might have objected to stories being told about him. — M.R.J.
@@ -204,7 +187,7 @@ and he waited for the coming of the ghost. He came at length in
 
 3. Whether a circle enclosing a cross or a circle drawn with a cross I do not know M.R.J. I think there can be no doubt that it was a circle with a cross drawn inside it at the points of which, where they meet the circumference, the reliquaries (*monilia*) were placed. I am not quite sure whether the passage does not mean that the names of the four gospels (i.e. the evangelists) and other sacred words were written in the quadrants of the circle. The magic circle plays a great part in a case of sorcery recorded in York Reg. Bainbridge and printed in *Archaeol. Journal*, xvi. It was here drawn on a huge sheet of parchment in a private house by an ingenious person who induced a number of people to combine with him m conjuring demons to reveal the hiding-place of a treasure at Mixendale Head, near Halifax. There is no mention of its being drawn with a cross or of a cross inscribed in it; it was copied from a conjuring book. It was inscribed however, "cum carecteribus et nominibus aliusque signis supersticiosis”; and one deponent, who arrived unexpectedly while the performance was going on, saw that the party “had a grete masse boke opyn afore theyme, and wrote oute what they wold”; cf. the “other sacred words” which the present spirit ordered his conjuror to bring with him. Are the *monilia* necessarily reliquaries? I should have thought that, in the present case, they might rather be medallions on which the *titulus triumphalis* was engraved, like the *laminae* of lead inscribed with figures of “Oberion,” “Storax,” and other spirits which formed part of the Halifax conjurors’ equipment. The text seems to imply a figure of this kind: — A.H.T.
 
-    ![Diagram](/aht-diagram.png)
+    ![Diagram](aht-diagram.png)
 
 
 
@@ -272,9 +255,6 @@ I must tell you that this Robert the younger died and was buried
 in a churchyard, but he had the habit of leaving his grave by night 
 
 
-1. This does not seem logically to follow upon the prohibition to tell the ghost’s name. I take it as advice to the tailor to change his abode. — M.R.J.
-
-2. I do not quite understand how this fire business worked; the Danish cases cited are not quite explanatory. Presumably the spirit, whom he had helped, meant that the tailor need not look at the fire as a precaution when he went home, now that all was well, and that all he need do was to keep his thoughts under control. The force of “for this night at least” seems to be that it would be well to look at the fire another night; the bullock was still about, and might be met again. — A.H.T.
 
 and disturbing and frightening the villagers, and the dogs of the 
 village used to follow him and bark loudly. Then some young men 

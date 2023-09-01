@@ -2,7 +2,7 @@
 
 [Latin Text](/latin.md)
 
-[English Translation](/english.md)
+[English Translation](english.md)
 
 Stories transcribed by M.R. James from a manuscript from Byland Abbey.
 This collection is a wonderful perspective on James' own ghost stories, along with his edition of Walter Map's "Courtly Trifles".
