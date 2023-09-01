@@ -4,19 +4,17 @@ Concerning a wonderful work of God, who calls things which are not as though the
 
 It has been handed down to memory that a certain man of Cleveland, called Richard Rowntree, left his wife great with child and went with many others to the tomb of Saint James. And one  night they passed the night in a wood near to the King's highway.  Wherefore one of the party kept watch for a part of the night  against night-fears, and the others slept in safety. 
 
-And it happened that in that part of the night, in which the man we speak of was  guardian and night watchman, he heard a great sound of people passing along the King’s highway. And some rode sitting on horses  and sheep and oxen, and some on other animals; and all the animals  
-were those that had been given to the church when they died .[^1] 
+And it happened that in that part of the night, in which the man we speak of was  guardian and night watchman, he heard a great sound of people passing along the King’s highway. And some rode sitting on horses  and sheep and oxen, and some on other animals; and all the animals were those that had been given to the church when they died .[^1] 
 
 And at last he saw what seemed a small child wriggling along on the ground wrapped in a stocking.[^2] And he conjured him and asked  him who he was, and why he thus wriggled along. And he made  answer, “You ought not to conjure me for you were my father and  I was your abortive son, buried without baptism and without  name.” 
 
-And when he heard this the pilgrim took off his shirt and  put it on his small child and gave him a name in the name of the  Holy Trinity, and he took with him the old stocking in witness to the  
-matter. And the child when he had thus received a name jumped  with joy and henceforth walked erect upon his feet though previously  he had wriggled. And when the pilgrimage was over he gave a  banquet to his neighbours and asked his wife for his hose. She  showed him one stocking but could not find the other. Then the  husband showed her the stocking in which the child was wrapped and she was astonished. And as the midwives confessed the truth concerning the death and burial of the boy in the stocking a divorce took place between the husband and the wife in as much as he was  the godfather of the abortive child. But I believe that this divorce was highly displeasing to God.[^3]
+And when he heard this the pilgrim took off his shirt and  put it on his small child and gave him a name in the name of the  Holy Trinity, and he took with him the old stocking in witness to the  matter. And the child when he had thus received a name jumped  with joy and henceforth walked erect upon his feet though previously  he had wriggled. And when the pilgrimage was over he gave a  banquet to his neighbours and asked his wife for his hose. She  showed him one stocking but could not find the other. Then the  husband showed her the stocking in which the child was wrapped and she was astonished. And as the midwives confessed the truth concerning the death and burial of the boy in the stocking a divorce took place between the husband and the wife in as much as he was  the godfather of the abortive child. But I believe that this divorce was highly displeasing to God.[^3]
 
 <center>* * *</center>
 
 [^1]: There are multitudinous examples of the nightly processions of the dead, but I do not know another case in which they ride on their own “mortuaries” (the beasts offered to the church or claimed by it at their decease); it is a curious reminiscence of the pagan fashion of providing means of transport for the dead by burying beasts with them. — M.R.J.
     
-[^2]: See notes upon this story ~~at the end of the article~~ below. (Emendation -- N.B.Z).
+[^2]: See notes upon this story ~~at the end of the article~~ after the text. (Emendation -- N.B.Z.)
     
 [^3]: Evidently the wife was not accessory to the indecent burial of the child, and the sympathy of the writer is with her. The divorce does seem superfluous, since though sponsors were not allowed to marry, here is but one sponsor; but I know not the canon law. — M.R.J.
     
