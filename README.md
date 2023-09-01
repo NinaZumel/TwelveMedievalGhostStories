@@ -4,7 +4,7 @@
 
 [English Translation](English/english.md)
 
-*(These notes are by mimno, the creator of the [original repository](https://github.com/mimno/TwelveMedievalGhostStories))
+(These notes are by mimno, the creator of the [original repository](https://github.com/mimno/TwelveMedievalGhostStories))
 
 Stories transcribed by M.R. James from a manuscript from Byland Abbey. This collection is a wonderful perspective on James' own ghost stories, along with his edition of Walter Map's "Courtly Trifles". If you haven't read anything by James, "Casting the Runes" will give you an entirely new perspective on blind peer review.
 
