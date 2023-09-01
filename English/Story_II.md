@@ -103,7 +103,7 @@ tailor said, You must see to that; I will give no advice to you.”
 Then at last the other said, “Get you gone in the name of the Lord 
 and may God prosper you in all things.”[^7] 
 
-After these words he came to the appointed place and made a great circle with a cross[^8]
+After these words he came to the appointed place and made a great circle with a cross[^8][^8a]
 and he had upon him the four gospels and other holy words and he 
 stood in the middle of the circle and he placed four reliquaries in 
 the form of a cross on the edge of the circle; and on the reliquaries 
@@ -162,6 +162,10 @@ and look not on a wood fire for this night at least .”[^12] And when he
 came home he was seriously ill for several days. [^13]
 
 
+![Diagram](aht-diagram.png)
+Diagram for footnote 8a, below.
+
+
 [^1]: Great pains have been taken through- out to conceal the name of the ghost. He must have been a man of quality whose relatives might have objected to stories being told about him. — M.R.J.
 
 [^2]: In the Danish tales something like this is to be found. Kristensen *Sagn og overtro* 1866, No. 585: After seeing a phantom funeral “the man was wise enough to go to the stove and look at the fire before he saw (candle- or lamp-) light. For when people see anything of the kind they are sick if they cannot get at fire before light.” Ibid., No. 371.: “He was very sick when he caught sight of the light.” The same in No. 369. In Part II of the same (1888), No. 690: “When you see anything supernatural, you should peep over the door before going into the house. You must see the light before the light sees you.” Collection of 1883, No. 193: “When he came home, he called to his wife to put out the light before he came in, but she did not and he was so sick they thought he would have died.” These examples are enough to show that there was risk attached to seeing light after a ghostly encounter. — M.R.J.
@@ -176,7 +180,9 @@ came home he was seriously ill for several days. [^13]
 
 [^7]: The conduct of the officious neighbour who insists upon being informed of the tailor's assignation with the ghost and then backs out of accompanying him is amusing. — M.R.J.
 
-[^8]: Whether a circle enclosing a cross or a circle drawn with a cross I do not know M.R.J. I think there can be no doubt that it was a circle with a cross drawn inside it at the points of which, where they meet the circumference, the reliquaries (*monilia*) were placed. I am not quite sure whether the passage does not mean that the names of the four gospels (i.e. the evangelists) and other sacred words were written in the quadrants of the circle. The magic circle plays a great part in a case of sorcery recorded in York Reg. Bainbridge and printed in *Archaeol. Journal*, xvi. It was here drawn on a huge sheet of parchment in a private house by an ingenious person who induced a number of people to combine with him in conjuring demons to reveal the hiding-place of a treasure at Mixendale Head, near Halifax. There is no mention of its being drawn with a cross or of a cross inscribed in it; it was copied from a conjuring book. It was inscribed however, "cum carecteribus et nominibus aliusque signis supersticiosis”; and one deponent, who arrived unexpectedly while the performance was going on, saw that the party “had a grete masse boke opyn afore theyme, and wrote oute what they wold”; cf. the “other sacred words” which the present spirit ordered his conjuror to bring with him. Are the *monilia* necessarily reliquaries? I should have thought that, in the present case, they might rather be medallions on which the *titulus triumphalis* was engraved, like the *laminae* of lead inscribed with figures of “Oberion,” “Storax,” and other spirits which formed part of the Halifax conjurors’ equipment. The text seems to imply a figure of this kind: — A.H.T. ![Diagram](aht-diagram.png)
+[^8]: Whether a circle enclosing a cross or a circle drawn with a cross I do not know M.R.J. 
+
+[^8a] I think there can be no doubt that it was a circle with a cross drawn inside it at the points of which, where they meet the circumference, the reliquaries (*monilia*) were placed. I am not quite sure whether the passage does not mean that the names of the four gospels (i.e. the evangelists) and other sacred words were written in the quadrants of the circle. The magic circle plays a great part in a case of sorcery recorded in York Reg. Bainbridge and printed in *Archaeol. Journal*, xvi. It was here drawn on a huge sheet of parchment in a private house by an ingenious person who induced a number of people to combine with him in conjuring demons to reveal the hiding-place of a treasure at Mixendale Head, near Halifax. There is no mention of its being drawn with a cross or of a cross inscribed in it; it was copied from a conjuring book. It was inscribed however, "cum carecteribus et nominibus aliusque signis supersticiosis”; and one deponent, who arrived unexpectedly while the performance was going on, saw that the party “had a grete masse boke opyn afore theyme, and wrote oute what they wold”; cf. the “other sacred words” which the present spirit ordered his conjuror to bring with him. Are the *monilia* necessarily reliquaries? I should have thought that, in the present case, they might rather be medallions on which the *titulus triumphalis* was engraved, like the *laminae* of lead inscribed with figures of “Oberion,” “Storax,” and other spirits which formed part of the Halifax conjurors’ equipment. The text seems to imply a figure of this kind: — A.H.T. 
 
 [^9]: I think the allusion is to the pictures of the Three Living and the Three Dead so often found painted on church walls. The Dead and Living are often represented as Kings.— M.R.J. One of the best examples (though only the “Trois Vifs” remain) of this kind of painting is over the north doorway at Lutterworth, and there is a very good example at Paston, Norfolk. — A.H.T.
 
