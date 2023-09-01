@@ -1,0 +1,7 @@
+# IX. Concerning the ghost of a man of Ayton in Cleveland. 
+
+It is reported that this ghost followed a man for four times twenty miles, that he should conjure and help him. And when he had been conjured he confessed that he had been excommunicated for a certain matter of sixpence; but after absolution and satisfaction he rested in peace. In all these things as nothing evil was left unpunished nor contrariwise anything good unrewarded, God showed himself to be a just rewarder. 
+
+It is said, too, that the ghost before he was conjured threw the living man over a hedge and caught him on the other side as he fell. When he was conjured he replied, “If you had done so first I would not have hurt you but here and there you were frightened and I did it."[^1]
+
+[^1]:The ghost throws him over the hedge and catches him as he falls on the other side. So the Troll whose (supposed) daughter married the blacksmith, when he heard that all the villagers shunned her, came to the church on Sunday before service, when all the people were in the churchyard, and drove them into a compact group. Then he said to his daughter, “Will you throw or catch?” “I will catch,” said she, in kindness to the people. “Very well, go round to the other side of the church.” And he took them one by one and threw them over the church, and she caught them and put them down unhurt. ‘‘Next time I come,” said the Troll, “ she shall throw and I will catch — if you don’t treat her better.” Not very relevant, but less known than it should be. - M.R.J.

@@ -1,4 +1,6 @@
 
+# I. Concerning the ghost of a certain labourer at Ryevaulx who helped a man to carry beans 
+
 A certain man was riding on his horse carrying on its back a 
 peck of beans. The horse stumbled on the road and broke its shin 
 bone; which when the man saw he took the beans on his own 
