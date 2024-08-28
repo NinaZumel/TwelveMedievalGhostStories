@@ -55,25 +55,25 @@ difficult; some words have baffled me. The Latin is very refreshing. - M. R. Jam
 
 ## The Stories
 
-[I. Concerning the ghost of a certain labourer at Ryevaulx who helped a man to carry beans](Story_I.md)
+[I. Concerning the ghost of a certain labourer at Ryevaulx who helped a man to carry beans](English/Story_I.md)
 
-[II. Concerning a wonderful encounter between a ghost and a living man in the time of King Richard II](Story_II.md)
+[II. Concerning a wonderful encounter between a ghost and a living man in the time of King Richard II](English/Story_II.md)
 
-[III. Concerning the ghost of Robert the son of Robert de Boltby of Kilburn, which was caught in a churchyard](Story_III.md)
+[III. Concerning the ghost of Robert the son of Robert de Boltby of Kilburn, which was caught in a churchyard](English/Story_III.md)
 
-[IV. and V.](Stories_IV_V.md)
+[IV. and V.](English/Stories_IV_V.md)
 
-[VI. Concerning a certain canon of Newburgh who was seized after his death by [blank]](Story_VI.md)
+[VI. Concerning a certain canon of Newburgh who was seized after his death by [blank]](English/Story_VI.md)
 
-[VII. and VIII.](Stories_VII_VIII.md)
+[VII. and VIII.](English/Stories_VII_VIII.md)
 
-[IX. Concerning the ghost of a man of Ayton in Cleveland](Story_IX.md)
+[IX. Concerning the ghost of a man of Ayton in Cleveland](English/Story_IX.md)
 
-[X. How a penitent thief, after confession, vanished from the eyes of the demon](Story_X.md)
+[X. How a penitent thief, after confession, vanished from the eyes of the demon](English/Story_X.md)
 
-[XI.](Story_XI.md)
+[XI. Concerning a wonderful work of God, who calls things which are not as though they were things which are, and who can act when and how he wills; and concerning a certain miracle.](English/Story_XI.md)
 
-[XII. Concerning the sister of old Adam of Lond and how she was seized after her death according to the account given by old men](Story_XII.md)
+[XII. Concerning the sister of old Adam of Lond and how she was seized after her death according to the account given by old men](English/Story_XII.md)
 
 
 ## Topographical Notes. 

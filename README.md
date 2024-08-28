@@ -1,6 +1,6 @@
 # Twelve Medieval Ghost Stories
 
-[Latin Text](/latin.md)
+[Latin Text](Latin/latin.md)
 
 [English Translation](English/english.md)
 

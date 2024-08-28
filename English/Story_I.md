@@ -1,4 +1,3 @@
-
 # I. Concerning the ghost of a certain labourer at Ryevaulx who helped a man to carry beans 
 
 A certain man was riding on his horse carrying on its back a 

@@ -1,6 +1,4 @@
-# XI.
-
-Concerning a wonderful work of God, who calls things which are not as though they were things which are, and who can act when  and how he wills; and concerning a certain miracle.
+# XI. Concerning a wonderful work of God, who calls things which are not as though they were things which are, and who can act when and how he wills; and concerning a certain miracle.
 
 It has been handed down to memory that a certain man of Cleveland, called Richard Rowntree, left his wife great with child and went with many others to the tomb of Saint James. And one  night they passed the night in a wood near to the King's highway.  Wherefore one of the party kept watch for a part of the night  against night-fears, and the others slept in safety. 
 
@@ -8,7 +6,7 @@ And it happened that in that part of the night, in which the man we speak of was
 
 And at last he saw what seemed a small child wriggling along on the ground wrapped in a stocking.[^2] And he conjured him and asked  him who he was, and why he thus wriggled along. And he made  answer, “You ought not to conjure me for you were my father and  I was your abortive son, buried without baptism and without  name.” 
 
-And when he heard this the pilgrim took off his shirt and  put it on his small child and gave him a name in the name of the  Holy Trinity, and he took with him the old stocking in witness to the  matter. And the child when he had thus received a name jumped  with joy and henceforth walked erect upon his feet though previously  he had wriggled. And when the pilgrimage was over he gave a  banquet to his neighbours and asked his wife for his hose. She  showed him one stocking but could not find the other. Then the  husband showed her the stocking in which the child was wrapped and she was astonished. And as the midwives confessed the truth concerning the death and burial of the boy in the stocking a divorce took place between the husband and the wife in as much as he was  the godfather of the abortive child. But I believe that this divorce was highly displeasing to God.[^3]
+And when he heard this the pilgrim took off his shirt and  put it on his small child and gave him a name in the name of the  Holy Trinity, and he took with him the old stocking in witness to the  matter. And the child when he had thus received a name jumped  with joy and henceforth walked erect upon his feet though previously  he had wriggled. And when the pilgrimage was over he gave a  banquet to his neighbours and asked his wife for his hose. She  showed him one stocking but could not find the other. Then the  husband showed her the stocking in which the child was wrapped and she was astonished. And as the midwives confessed the truth concerning the death and burial of the boy in the stocking a divorce took place between the husband and the wife in as much as he was  the godfather of the abortive child. But I believe that this divorce was highly displeasing to God.[^3][^4]
 
 <center>* * *</center>
 
@@ -18,8 +16,7 @@ And when he heard this the pilgrim took off his shirt and  put it on his small c
     
 [^3]: Evidently the wife was not accessory to the indecent burial of the child, and the sympathy of the writer is with her. The divorce does seem superfluous, since though sponsors were not allowed to marry, here is but one sponsor; but I know not the canon law. — M.R.J.
     
-
-I cannot conceive what the grounds of the divorce were, unless it could be argued that the father, by standing godfather to his own child after marriage, entered into a relationship which was irregular. Parents could not be sponsors for their children; and if the story is true it may have been held that this irregular  act dissolved the marriage,’ and that, in taking upon him the sponsorship, he renounced his rights as a husband. On the face of it this was the view taken;  the incident was so remarkable that it  must have been hard to cite precedent.
+[^4]: I cannot conceive what the grounds of the divorce were, unless it could be argued that the father, by standing godfather to his own child after marriage, entered into a relationship which was irregular. Parents could not be sponsors for their children; and if the story is true it may have been held that this irregular  act dissolved the marriage,’ and that, in taking upon him the sponsorship, he renounced his rights as a husband. On the face of it this was the view taken;  the incident was so remarkable that it  must have been hard to cite precedent. - A.H.T
 
 This page is difficult to read, blurred,  and the writing in places gone. — M R J.
 
