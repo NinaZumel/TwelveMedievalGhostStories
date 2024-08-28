@@ -43,26 +43,26 @@ British Museum MS. Royal 15 A. xx.
 
 ## The Stories
 
-[I. De quodam spiritu cuiusdam mercenarii de Ryeuall' qui adiuuit hominem ad portandum fabas.](Latin/Story_I.md)
+[I. De quodam spiritu cuiusdam mercenarii de Ryeuall' qui adiuuit hominem ad portandum fabas.](Story_I.md)
 
-[II. De mirabili certacione inter spiritum et viuentem in tempore regis Ricardi secundi.](Latin/Story_II.md)
+[II. De mirabili certacione inter spiritum et viuentem in tempore regis Ricardi secundi.](Story_II.md)
 
-[III. De spiritu Roberti filii Roberti de Boltebi de Killeburne comprehenso in cimiterio.](Latin/Story_III.md)
+[III. De spiritu Roberti filii Roberti de Boltebi de Killeburne comprehenso in cimiterio.](Story_III.md)
 
-[IV. and V.](Latin/Stories_IV_V)
+[IV. and V.](Stories_IV_V)
 
-[VI. De quodam canonico de Newburg post mortem capto quem \[blank)\] comprehendit.](Latin/Story_VI.md)
+[VI. De quodam canonico de Newburg post mortem capto quem \[blank)\] comprehendit.](Story_VI.md)
 
-[VII. and VIII.](Latin/Stories_VII_VIII.md)
+[VII. and VIII.](Stories_VII_VIII.md)
 
-[IX. Item de spiritu hominis de Aton in Clyueland.](Latin/Story_IX.md)
+[IX. Item de spiritu hominis de Aton in Clyueland.](Story_IX.md)
 
 The stories are continued on the last three pages of the volume (ff. 163 b, 164). I omit one extract 'de triplici genere confessionis' and a story taken from a book, of which the catalogue gives this synopsis. A servant guilty of adultery with his mistress, and suspected by his master, is taken to a 'vates qui habet spiritum phitonis', but on the way he repents and lashes himself, whereby the spirit loses his memory. Caesarius of Heisterbach has many such tales.
 
-[X. Quomodo latro penitens post confessionem euanuit ab oculis demonis.](Latin/Story_X.md)
+[X. Quomodo latro penitens post confessionem euanuit ab oculis demonis.](Story_X.md)
 
-[XI. De opere dei mirando qui vocat ea que non sunt. tanquam ea que sunt. et qui potest facere quando et quicquid vult. et de quodam miro.](Latin/Story_XI.md)
+[XI. De opere dei mirando qui vocat ea que non sunt. tanquam ea que sunt. et qui potest facere quando et quicquid vult. et de quodam miro.](Story_XI.md)
 
-[XII. De sorore veteris Ade de Lend comprehensa post mortem secundum relacionem antiquorum.](Latin/Story_XII.md)
+[XII. De sorore veteris Ade de Lend comprehensa post mortem secundum relacionem antiquorum.](Story_XII.md)
 
 
