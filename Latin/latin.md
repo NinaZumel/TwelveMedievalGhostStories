@@ -49,7 +49,7 @@ British Museum MS. Royal 15 A. xx.
 
 [III. De spiritu Roberti filii Roberti de Boltebi de Killeburne comprehenso in cimiterio.](Story_III.md)
 
-[IV. and V.](Stories_IV_V)
+[IV. and V.](Stories_IV_V.md)
 
 [VI. De quodam canonico de Newburg post mortem capto quem \[blank)\] comprehendit.](Story_VI.md)
 
