@@ -1,6 +1,7 @@
 const { DateTime } = require("luxon");
 const path = require('path');
 const fs = require("fs");
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy"); // for deploying to subdirectories
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginBundle = require("@11ty/eleventy-plugin-bundle");
@@ -20,7 +21,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(pluginBundle);
-
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   // Watch content images for the image pipeline.
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg,jpg}"); 
