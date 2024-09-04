@@ -91,7 +91,7 @@ After these words he came to the appointed place and made a great circle with a 
 
 [^cross]: Whether a circle enclosing a cross or a circle drawn with a cross I do not know. -- M.R.J. 
 
-[^morecross]: See also [A.H.T's note and illustration](/english/#notes-on-"the-great-circle-with-a-cross") at the end of this story. -- N.B.Z.
+[^morecross]: See also A.H.T's note and illustration at the end of this story. -- N.B.Z.
 
 [^kings]: I think the allusion is to the pictures of the Three Living and the Three Dead so often found painted on church walls. The Dead and Living are often represented as Kings.— M.R.J. 
 
