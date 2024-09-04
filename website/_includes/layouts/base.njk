@@ -29,34 +29,21 @@
 
 
     {# -- old way to get the css
-    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-    <link rel="stylesheet" href="{{ '/css/prism-a11y-dark.css' | url }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ '/css/index.css'  }}">
+    <link rel="stylesheet" href="{{ '/css/prism-a11y-dark.css'}}" media="print" onload="this.media='all'">
     #}
 
-    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+    <link rel="alternate" href="{{ metadata.feed.path}}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="icon" href="/img/meta/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon-152x152.png" />
     <link rel="icon" type="image/png" href="/touchicon-196.png" sizes="196x196" />
 
-    <!-- Open Graph tags -->
-    {% set ogUrl %}{{ page.url | url | absoluteUrl(metadata.url) }}{% endset %}
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ ogUrl }}" />
-    <meta property="og:title" content="{{ title or metadata.title }}" />
-    {% if content_type == "book" %}
-    {% set bookThumbnail = metadata.feed_reading.img_base_url + cover_image %}
-    <meta property="og:image" content="{{ bookThumbnail }}" />
-    <meta property="og:description" content="by {{ author }}" />
-    {% else %}
-    <meta property="og:image" content="{{ metadata.profile_image }}" />
-    <meta property="og:description" content="{{ description or metadata.description }}" />
-    {% endif %}
 
   </head>
   <body>
     <a href="#skip" class="visually-hidden">Skip to main content</a>
     <header>
-      <span class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></span>
+      <span class="home"><a href="{{ '/' }}">{{ metadata.title }}</a></span>
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 			<nav class="nav">
@@ -71,7 +58,7 @@
       {# The original navigation
       <ul class="nav">
       {%- for item in navigation.items %}
-        <li class="nav-item"><a href="{{ item.url | url }}" {{helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a></li>
+        <li class="nav-item"><a href="{{ item.url }}" {{helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a></li>
       {%- endfor %}
       #}
 
@@ -87,13 +74,13 @@
        Website {{ site.buildTime | date("yyyy") }} by Nina Zumel.
       {# 
       {%- for item in navigation.footer_items %}
-        <li class="nav-item"><a href="{{ item.url | url }}" {% if item.rel %} rel="{{item.rel}}" {% endif %} {{helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a></li>
+        <li class="nav-item"><a href="{{ item.url }}" {% if item.rel %} rel="{{item.rel}}" {% endif %} {{helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a></li>
       {%- endfor %}
       </ul>
       #}
       </div>
     </footer>
 
-    <!-- Current page: {{ page.url | url }} -->
+    <!-- Current page: {{ page.url }} -->
   </body>
   </html>
