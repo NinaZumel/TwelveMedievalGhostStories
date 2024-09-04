@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Twelve Medieval Ghost Stories | All Posts</title>
+	<subtitle>An Online Version of the Byland Abbey Ghost Stories</subtitle>
+	
+	<link href="https://ninazumel.com/TwelveMedievalGhostStories/feed/feed.xml" rel="self"/>
+	<link href="https://ninazumel.com/TwelveMedievalGhostStories/"/>
+	<updated>2024-09-04T01:33:30Z</updated>
+	<id>https://www.ninazumel.com/TwelveMedievalGhostStories/</id>
+	<author>
+		<name>Nina Zumel</name>
+		<email>nzumel@mzlabs.com</email>
+	</author>
+</feed>

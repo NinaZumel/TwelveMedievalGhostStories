@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="view-transition" content="same-origin">
+    <title>Twelve Medieval Ghost Stories</title>
+    <meta name="description" content="An Online Version of the Byland Abbey Ghost Stories">
+		
+		<style>* { box-sizing: border-box; }
+/* Colors */
+:root {
+  --red: #c5004a;
+  --darkred: #7f0036;
+  --purple: #9a0eea;
+  --lightpink: rgba(254, 213, 229, 1);
+  --palepink: rgba(254, 213, 229, .5);
+  --palepurple: rgba(154, 116, 248, 0.25);
+  --lightgray: #c0c0c0;
+  --gray: #666;
+  --darkgray: #333;
+  --navy: #17050f;
+  --blue: #082840;
+  --white: #fff;
+  --offwhite: #fafafa;
+  --font--serif: 'Bitstream Charter', Charter, Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+  --font--sans: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  --grid--header--narrow: 160px 1fr;
+  --grid--narrow: 1fr;
+  --grid--base: calc(50vw - 37.25rem) [content-bleed-start] 1fr [content-gutter-start] 100px [content-start] repeat(6, [col-start] 1fr) [content-end] 100px [content-gutter-end] 1fr [content-bleed-end] calc(50vw - 37.25rem);
+  --grid--wide: calc(50vw - 31.25rem) [content-bleed-start] 1fr [content-gutter-start] 100px [content-start] repeat(6, [col-start] 1fr) [content-end] 100px [content-gutter-end] 1fr [content-bleed-end] calc(50vw - 31.25rem);
+  --sidenote-highlight-background: rgba(0,0,0,.05);
+  --sidenote-highlight-background: rgba(0,0,0,.05);
+  --accent-color: var(--purple);
+  --active-sidenote-color: var(--palepurple);
+  --code-background-color: var(--palepink);
+}
+
+/* Global stylesheet */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font--serif);
+  color: var(--darkgray);
+  background-color: var(--offwhite);
+  height: 100vh;
+}
+
+main {
+  view-transition-name: main;
+}
+
+/* Basic heading typography */
+h1,h2,h3,h4,h5 {
+  font-family: var(--font--sans);
+  font-weight: 600;
+}
+
+h1,h2,h3,h4,h5,p {
+  word-break: break-word;
+}
+
+
+.visually-hidden {
+  clip: rect(0 0 0 0) !important;
+  border: 0 !important;
+  clip-path: polygon(0 0, 0 0, 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  width:1px !important
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  padding: 0 0 0 1em;
+  list-style-position: outside;
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    ul,
+    ol {
+      padding: 0 0 0 1.4em;
+    }
+  }
+}
+
+@media (min-width: 45em) {
+  ul,
+  ol {
+    padding: 0;
+    list-style-position: outside;
+  }
+
+  ul li ul,
+  ol li ol {
+    padding: 0 0 0 1em;
+  }
+}
+
+.tmpl-post li {
+  max-width: 37.5em; /* 600px /16 */
+}
+
+.tmpl-post li {
+  line-height: 1.45;
+}
+a[href] {
+  color: var(--accent-color);
+}
+a[href]:visited {
+  color: var(--accent-color);
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background: var(--lightgray);
+  grid-column: 1;
+  width: 100%;
+  margin: 3em 0 2em 0;
+}
+
+@media (min-width: 45rem) {
+  hr {
+    grid-column: content-start / content-end;
+  }
+}
+
+header {
+  border-bottom: 1px dotted var(--lightgray);
+  display: grid;
+  grid-template-columns: var(--grid--header--narrow);
+}
+
+@media (min-width: 45rem) {
+  header {
+    grid-template-columns: var(--grid--base);
+  }
+}
+
+@media (min-width: 60rem) {
+  header {
+    grid-template-columns: var(--grid--wide);
+  }
+}
+
+footer {
+  display: grid;
+  grid-template-columns: var(--grid--narrow);
+  padding: 2rem 0;
+  margin-top: 2em;
+  border-top: 1px dotted var(--lightgray);
+}
+
+.footer--copyright {
+  margin-left: 1rem;
+}
+
+@media (min-width: 45rem) {
+  footer {
+    grid-template-columns: var(--grid--base);
+  }
+  .footer--copyright {
+    grid-column: content-start / content-end;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 60rem) {
+  footer {
+    grid-template-columns: var(--grid--wide);
+  }
+  .footer--copyright {
+    grid-column: content-start / content-end;
+    margin-left: 0;
+  }
+}
+
+table {
+  margin: 1em 0;
+}
+table td,
+table th {
+  padding-right: 1em;
+}
+
+pre,
+code {
+  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono",
+    "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
+    "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L",
+    "Courier New", Courier, monospace;
+}
+pre {
+  font-size: 0.8em;
+  line-height: 1.375;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  padding: 1em;
+  margin: 1em 0 1em 1em;
+  background-color: #f6f6f6;
+}
+
+code {
+  font-size: 0.8em;
+  background-color: var(--code-background-color);
+}
+
+pre code {
+  font-size: 1em;
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    pre {
+      margin: 1em 0 1em 1.4em;
+    }
+  }
+}
+
+.highlight-line {
+  display: block;
+  padding: 0.125em 1em;
+  text-decoration: none; /* override del, ins, mark defaults */
+  color: inherit; /* override del, ins, mark defaults */
+}
+
+/* allow highlighting empty lines */
+.highlight-line:empty:before {
+  content: " ";
+}
+/* avoid double line breaks when using display: block; */
+.highlight-line + br {
+  display: none;
+}
+
+.highlight-line-isdir {
+  color: #b0b0b0;
+  background-color: #222;
+}
+.highlight-line-active {
+  background-color: #444;
+  background-color: hsla(0, 0%, 27%, 0.8);
+}
+.highlight-line-add {
+  background-color: #45844b;
+}
+.highlight-line-remove {
+  background-color: #902f2f;
+}
+
+/* Citations w/in Blockquote */
+
+cite {
+  font-style: normal;
+  font-size: 0.8em;
+}
+
+/* Images */
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 95vh;
+}
+
+figcaption {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: var(--darkgray);
+}
+
+/* Header */
+.home {
+  padding: 0 1em;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  margin: 1em 0; /* 16px /16 */
+  font-size: 1em; /* 16px /16 */
+  grid-column: 1;
+}
+
+.home a[href],
+.home a[href]:visited {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+@media (min-width: 45em) {
+  .home {
+    grid-column: content-bleed-start / content-start;
+  }
+}
+
+@media (min-width: 65em) {
+  .home {
+    padding: 0;
+  }
+}
+
+.home :link:not(:hover) {
+  text-decoration: none;
+}
+
+/* Nav */
+
+.nav {
+  padding: 0;
+  list-style: none;
+  grid-column: 2;
+  font-family: var(--font--sans);
+}
+
+@media (min-width: 45em) {
+  .nav {
+    grid-column: content-start / content-bleed-end;
+  }
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+.nav-item a[data-state="active"] {
+  text-decoration: underline;
+}
+
+.footer--copyright .nav-item {
+  margin: 0 1em 2em 0;
+}
+
+.footer--copyright .nav-item a {
+  text-decoration: underline;
+}
+
+/* Homepage */
+
+.tmpl-home h1 {
+  grid-column: 1;
+}
+
+@media (min-width: 45rem) {
+  .tmpl-home h1 {
+    grid-column: content-start / content-end;
+  }
+}
+
+.tmpl-home h2 {
+  grid-column: 1;
+}
+
+@media (min-width: 45rem) {
+  .tmpl-home h2 {
+    grid-column: content-start / content-end;
+  }
+}
+
+.home--bio {
+  grid-column: 1;
+}
+
+@media (min-width: 45rem) {
+  .home--bio {
+    grid-column: content-gutter-start / content-gutter-end;
+  }
+
+  .home--bio > figure {
+    float: left;
+    margin: 0 1em 0 0;
+    width: 50%;
+  }
+
+  .home--bio > p:first-of-type {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 60rem) {
+  .tmpl-home .bookslist,
+  .tmpl-home .filmslist {
+    grid-column: content-start / content-end;
+  }
+}
+
+/* Posts list */
+.tmpl-posts-list h1 {
+  grid-column: 1;
+}
+
+@media (min-width: 45rem) {
+  .tmpl-posts-list h1 {
+    grid-column: content-start / content-bleed-end;
+  }
+}
+
+.postlist {
+  list-style: none;
+  padding: 0;
+}
+
+@media (min-width: 45rem) {
+  .postlist {
+    grid-column: content-start / content-end;
+  }
+}
+
+@media (min-width: 60rem) {
+  .postlist {
+    font-size: 1.125rem;
+  }
+}
+
+.postlist-item {
+  margin-bottom: 2em;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 2em;
+}
+
+.postlist-item:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.postlist-item .post--meta {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.postlist-link {
+  display: inline-block;
+  padding: 0;
+  color: var(--accent-color);
+}
+
+a[href].postlist-link:visited {
+  color: var(--accent-color);
+}
+
+.postlist-item-active .postlist-link {
+  font-weight: bold;
+}
+
+.postlist-link {
+  font-size: 1.125em; /* 19px /16 */
+}
+
+.postlist-item-title {
+  font-size: 1em;
+  margin: 0;
+}
+
+/* Tags List */
+.tag {
+  color: var(--accent-color);
+}
+a[href].tag,
+a[href].tag:visited {
+  color: var(--accent-color);
+}
+
+.tmpl-tags-list h1 {
+  grid-column: 1;
+}
+
+@media (min-width: 45rem) {
+  .tmpl-tags-list h1 {
+    grid-column: content-start / content-bleed-end;
+  }
+}
+
+.tmpl-tags-list .postlist-item {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Tag Detail */
+
+.tmpl-tag-detail h1 {
+  grid-column: 1;
+}
+
+@media (min-width: 45rem) {
+  .tmpl-tag-detail h1 {
+    grid-column: content-start / content-bleed-end;
+  }
+}
+
+/* .tmpl-tag-detail .postlist-item {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+} */
+
+/* Warning */
+.warning {
+  background-color: #ffc;
+  padding: 1em 0.625em; /* 16px 10px /16 */
+}
+.warning ol:only-child {
+  margin: 0;
+}
+
+/* Direct Links / Markdown Headers */
+.direct-link {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  margin-left: 0.1em;
+}
+a[href].direct-link,
+a[href].direct-link:visited {
+  color: transparent;
+}
+a[href].direct-link:focus,
+a[href].direct-link:focus:visited,
+:hover > a[href].direct-link,
+:hover > a[href].direct-link:visited {
+  color: #aaa;
+}
+
+/* Post */
+
+body {
+  font-family: var(--font--serif);
+  line-height: 1.4;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: var(--grid--narrow);
+  margin: 2em 1em 0 1em;
+}
+
+@media (min-width: 45rem) {
+  .container {
+    display: grid;
+    grid-template-columns: var(--grid--base);
+    margin: 2em 0;
+  }
+}
+
+@media (min-width: 60rem) {
+  .container {
+    display: grid;
+    grid-template-columns: var(--grid--wide);
+    margin: 2em 0;
+    font-size: 1.125rem;
+  }
+}
+
+.tmpl-post h1 {
+  font-size: 3em;
+  line-height: 1.125em;
+  grid-column: 1;
+  margin-bottom: 0.25em;
+  text-wrap: balance;
+}
+
+@media (min-width: 45em) {
+  .tmpl-post h1 {
+    grid-column: content-start / content-end;
+  }
+}
+
+.post--meta {
+  grid-column: 1;
+  margin-bottom: 2em;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  font-size: 0.9em;
+  color: var(--gray);
+}
+
+@media (min-width: 45em) {
+  .post--meta {
+    grid-column: content-start / content-end;
+    margin-bottom: 3em;
+  }
+}
+
+.tmpl-post h2 {
+  font-size: 1.5em;
+  grid-column: 1;
+  line-height: 1.2;
+  margin: 1.5em 0 1em 0;
+}
+
+@media (min-width: 45em) {
+  .tmpl-post h2 {
+    grid-column: content-start / content-end;
+  }
+}
+
+.tmpl-post h3 {
+  font-size: 1.125em;
+  grid-column: 1;
+  margin: 1em 0 0.5em 0;
+}
+
+@media (min-width: 45em) {
+  .tmpl-post h3 {
+    grid-column: content-start / content-end;
+  }
+}
+
+.tmpl-post h4 {
+  font-size: 1em;
+  grid-column: 1;
+  margin: 1em 0 0.5em 0;
+}
+
+@media (min-width: 45em) {
+  .tmpl-post h4 {
+    grid-column: content-start / content-end;
+  }
+}
+
+.tmpl-post ul,
+.tmpl-post ol {
+  grid-column: 1;
+  margin-top: 0;
+}
+
+@media (min-width: 45em) {
+  .tmpl-post ul,
+  .tmpl-post ol {
+    grid-column: content-start / content-end;
+  }
+}
+
+.tmpl-post figure {
+  /* margin: 0 0 1em 0; */
+  grid-column: 1;
+  margin: 1em 0 2em 0;
+}
+
+@media (min-width: 45em) {
+  .tmpl-post figure {
+    grid-column: content-start / content-end;
+  }
+}
+
+.tmpl-post .cinemascope {
+  grid-column: 1;
+  justify-self: center;
+}
+
+@media (min-width: 45rem) {
+  .tmpl-post .cinemascope {
+    grid-column: content-bleed-start / content-bleed-end;
+    /* justify-self: center; */
+  }
+  .tmpl-post .cinemascope figcaption {
+    margin-left: 1em;
+  }
+}
+
+@media (min-width: 82rem) {
+  .tmpl-post .cinemascope figcaption {
+    margin-left: 0;
+  }
+}
+
+.tmpl-post .normal {
+  grid-column: content-start / content-end;
+}
+
+.tmpl-post .container > p {
+  /* grid-column: content-start / content-end; */
+  grid-column: 1;
+  hanging-punctuation: first;
+  margin-top: 0;
+}
+
+/* .tmpl-post .container img {
+  width: 100%;
+} */
+
+@media (min-width: 45em) {
+  .tmpl-post .container > p {
+    grid-column: content-start / content-end;
+  }
+}
+
+
+blockquote {
+  border-left: 4px solid #e2e2e2;
+  grid-column: 1;
+  margin: 1em 0;
+  padding-left: 1em;
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    blockquote {
+      padding-left: 1.4em;
+    }
+  }
+}
+
+@media (min-width: 45em) {
+  blockquote {
+    grid-column: content-start / content-end;
+    margin: 2em 0 2em -1.5em;
+    padding-left: 1.5em;
+  }
+}
+
+.tmpl-post .container > blockquote > p:first-child {
+  margin-top: 0;
+}
+
+.tmpl-post .aside-right-wrap {
+  grid-column: 1;
+}
+
+.tmpl-post .aside-right-wrap .aside-content > p:last-child {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 45em) {
+  .tmpl-post .aside-right-wrap {
+    grid-column: content-start / content-gutter-end;
+  }
+}
+
+.tmpl-post .aside-right-wrap > p {
+  line-height: 1.4;
+}
+
+.tmpl-post .aside-right-wrap > aside {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-style: italic;
+}
+
+.tmpl-post .aside-right-wrap > aside > p:last-child {
+  margin-bottom: 1em;
+}
+
+.pagination--inner {
+  grid-column: 1;
+  border-top: 1px dashed var(--lightgray);
+  margin-top: 2em;
+  padding-top: 1em;
+  font-family: var(--font--sans);
+  font-size: 1rem;
+  display: flex;
+}
+
+.post--next-previous-link {
+  grid-column: 1;
+}
+
+.pagination--next-only {
+  justify-content: flex-end;
+}
+
+.pagination--inner .left,
+.pagination--inner .right {
+  flex-grow: 1;
+}
+
+.pagination--inner .right {
+  text-align: right;
+}
+
+@media (min-width: 45em) {
+  .post--next-previous-link {
+    grid-column: content-start / content-end;
+  }
+}
+
+@media (min-width: 45em) {
+  .tmpl-post .aside-right-wrap {
+    grid-column: content-start / content-gutter-end;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .tmpl-post .aside-right-wrap .aside-content {
+    line-height: 1.4;
+    flex: 2 70%;
+  }
+
+  .tmpl-post .aside-right-wrap > aside {
+    padding: 0;
+    margin-left: 1em;
+    font-style: italic;
+    margin-top: 1em;
+    border-left: 2px solid #ccc;
+    border-top: none;
+    border-bottom: none;
+    flex: 1 30%;
+  }
+
+  .tmpl-post .aside-right-wrap > aside > p {
+    padding: 0 0 0 1em;
+    margin: 0;
+    line-height: 1.5;
+  }
+}
+
+.tmpl-post .aside-left-wrap {
+  grid-column: 1;
+}
+@media (min-width: 45em) {
+  .tmpl-post .aside-left-wrap {
+    grid-column: content-start / content-end;
+  }
+}
+
+.tmpl-post .aside-left-wrap > aside {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-style: italic;
+}
+
+.tmpl-post .aside-left-wrap > aside > p:last-child {
+  margin-bottom: 1em;
+}
+
+.tmpl-post .aside-left-wrap .aside-content > p:last-child {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 45em) {
+  .tmpl-post .aside-left-wrap {
+    grid-column: content-gutter-start / content-end;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .tmpl-post .aside-left-wrap > aside {
+    order: 1;
+    padding: 0 1em 0 0;
+    margin-top: 1em;
+    margin-right: 2em;
+    font-style: italic;
+    border-right: 2px solid #ccc;
+    border-top: none;
+    border-bottom: none;
+    flex: 1 30%;
+  }
+  .tmpl-post .aside-left-wrap > aside > p {
+    margin: 0;
+  }
+
+  .tmpl-post .aside-left-wrap .aside-content {
+    line-height: 1.4;
+    order: 2;
+    flex: 2 70%;
+  }
+}
+
+@media (min-width: 60rem) {
+  .tmpl-post .aside-left-wrap > aside {
+    padding-right: 0.5em;
+  }
+}
+
+/* .tmpl-post figure {
+  grid-column: content-start / content-end;
+} */
+
+.tmpl-post pre,
+.tmpl-post pre[class*="language-"] {
+  grid-column: 1;
+  margin-bottom: 1.375rem;
+}
+
+@media (min-width: 45em) {
+  .tmpl-post pre,
+  .tmpl-post pre[class*="language-"] {
+    grid-column: content-start / content-end;
+    margin-left: 0;
+  }
+}
+
+.footnotes-sep {
+  margin: 3em 0 1em 0;
+}
+
+.footnotes {
+  grid-column: 1;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 45rem) {
+  .footnotes {
+    grid-column: content-start / content-end;
+  }
+}
+
+.footnote-ref a[href],
+.footnote-ref a[href]:visited {
+  color: var(--accent-color);
+  font-family: var(--font--sans);
+  font-size: .8rem;
+  margin: 0 0 0 0.1em;
+  text-decoration: none;
+}
+
+/* Sidenotes */
+
+.hide-sidenotes .notes-wrapper {
+  display: none;
+}
+
+.hide-endnotes .footnotes-sep,
+.hide-endnotes .footnotes {
+  display: none;
+}
+
+.notes-wrapper {
+  grid-column: content-end / content-bleed-end;
+  position: relative;
+  margin-left: .5em;
+}
+
+.note-identifier {
+  font-family: var(--font--sans);
+  left: -34px;
+  position: absolute;
+  text-align: right;
+  width: 28px;
+}
+
+.note {
+  position: absolute;
+  font-size: .8rem;
+  left: 1em;
+  padding: 5px 10px;
+}
+
+.notes-wrapper .note > p {
+  margin: 0;
+}
+
+.active-sidenote {
+  background-color: var(--active-sidenote-color);
+  border: 1px dotted var(--darkgray);
+}</style>
+
+
+    
+
+    <link rel="alternate" href="/TwelveMedievalGhostStories/feed/feed.xml" type="application/atom+xml" title="Twelve Medieval Ghost Stories">
+    <link rel="icon" href="/img/meta/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="/touchicon-196.png" sizes="196x196">
+
+    <!-- Open Graph tags -->
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ninazumel.com/TwelveMedievalGhostStories/latin/">
+    <meta property="og:title" content="Twelve Medieval Ghost Stories">
+    
+    <meta property="og:image" content="">
+    <meta property="og:description" content="An Online Version of the Byland Abbey Ghost Stories">
+    
+
+  </head>
+  <body>
+    <header>
+      <span class="home"><a href="/TwelveMedievalGhostStories/">Twelve Medieval Ghost Stories</a></span>
+			<nav class="nav">
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/latin/" aria-current="page">Latin Text</a></li>
+					<li class="nav-item"><a href="/english/">English Translation</a></li>
+					<li class="nav-item"><a href="/posts/about-site/">About This Site</a></li>
+				</ul>
+			</nav>
+
+      
+
+    </header>
+
+    <main class="tmpl-post">
+      <article class="content-main container">
+<h1>Twelve Medieval Ghost Stories</h1>
+<h2>The Latin Text</h2>
+<p><em>English Historical Review</em>, Vol 37, July 1922</p>
+<p>THESE stories were I believe first noticed in the recent Catalogue of the Royal Manuscripts, where a brief analysis of them is given which may well have excited the curiosity of others besides myself. All that Casley has to say of them in the old catalogue is ‘Exemplaria apparitionum spirituum (saec.) xv’.</p>
+<p>I took an early opportunity of transcribing them, and I did not find them disappointing: I hope others will agree that they deserved to be published.</p>
+<p>The source is the Royal MS. 15. A. xx in the British Museum.It is a fine volume of the twelfth and early thirteenth centuries containing some tracts of Cicero and the <em>Elucidarium</em>. It belonged to Byland Abbey (Yorkshire) and later to John Theyer.</p>
+<p>On blank pages in the body of the book (ff. 140-3) and at the end (fo. 163 b) a monk of Byland has written down a series of ghost-stories of which the scenes are laid in his own neighbourhood. They are strong in local colour, and though occasionally confused, incoherent, and unduly compressed, evidently represent the words of the narrators with some approach to fidelity.</p>
+<p>To me they are redolent of Denmark. Any one who is lucky enough to possess E. T. Kristensen’s delightful collections of <em>Sagn fra Jylland</em> will be reminded again and again of traits which occur there. Little as I can claim the quality of ‘folklorist’ I am fairly confident that the Scandinavian element is really prominent in these tales.</p>
+<p>The date of the writing cannot be long after 1400 (c. 1400 is the estimate in the catalogue). Richard II’s reign is referred to as past. A study of local records, impossible to me, might not improbably throw light upon the persons mentioned in the stories.</p>
+<p>The hand is not a very easy one, and the last page of all is really difficult: some words have baffled me. The Latin is very refreshing.</p>
+<p>M. R. JAMES.</p>
+<p>British Museum MS. Royal 15 A. xx.</p>
+<h3 id="i.-de-quodam-spiritu-cuiusdam-mercenarii-de-ryeuall'-qui-adiuuit-hominem-ad-portandum-fabas." tabindex="-1">I. De quodam spiritu cuiusdam mercenarii de Ryeuall’ qui adiuuit hominem ad portandum fabas. <a class="direct-link" href="#i.-de-quodam-spiritu-cuiusdam-mercenarii-de-ryeuall'-qui-adiuuit-hominem-ad-portandum-fabas." aria-hidden="true">#</a></h3>
+<p>Quidam homo equitauit super equum suum portantem super se vnum modium fabarum. Qui equus cepsitauit [sc. cesp-] in via et fregit tibiam. Quo percepto vir tulit fabas super dorsum suum proprium: et dum iret per viam vidit quasi equum stantem super pedes posteriores, pedibus anterioribus sursum erectis. Qui perterritus prohibuit equum in nomine ihesu christi ne noceret ei. Quo facto ibat cum eo quasi equus, et post paululum apparuit in figura acerui de feno rotantis,<sup class="footnote-ref" id="fn-anchor-1"><a href="#fn1" id="fnref1">1</a></sup> et lumen erat in medio. Cui dixit viuus Absit quod inferas mihi malum.</p>
+<p>Quo dicto apparuit in figura hominis, et ille coniurauit eum. Tunc spiritus dixit ei nomen suum et causam et remedium,<sup class="footnote-ref" id="fn-anchor-2"><a href="#fn2" id="fnref2">2</a></sup> et addidit Permitte me portare fabas et adiuuare te. Et fecit sic usque ad torrentem sed noluit transire vlterius, et viuus nesciuit qualiter saccus fabarum iterum ponebatur super dorsum suum. Et postea fecit spiritum absolui et missas cantari pro eo et adiutus est.</p>
+<h3 id="ii.-de-mirabili-certacione-inter-spiritum-et-viuentem-in-tempore-regis-ricardi-secundi." tabindex="-1">II. De mirabili certacione inter spiritum et viuentem in tempore regis Ricardi secundi. <a class="direct-link" href="#ii.-de-mirabili-certacione-inter-spiritum-et-viuentem-in-tempore-regis-ricardi-secundi." aria-hidden="true">#</a></h3>
+<p>Dicitur quod quidam scissor cognomine [blank] Snawball equitando remeauit ad domum suam in ampilforth quadam nocte de Gillyng, et in via audiuit quasi sonitum anates [s]e lauantes [corr. from anas se lauans] in torrente et paulopost aspexit quasi coruum circa faciem suam volantem et descendentem vsque ad terram, alis suis concucientibus solum quasi deberet mori. Qui scissor de equo suo descendit ut caperet coruum et interim vidit sintillas ignis spargentes de lateribus eiusdem corui. Tune signauit se et prohibuit eum ex parte dei ne inferret illi dampnum aliqnod ilia vice. Qui euolauit cum eiulatu magno quasi spacium lapidis † entcardi †.<sup class="footnote-ref" id="fn-anchor-3"><a href="#fn3" id="fnref3">3</a></sup> Tunc iterum ascendit equum suum et paulopost predictus coruus obuiauit illi in volando et percussit eum in latere et prostrauit in terra scissorem equitantem de equo suo. Qui taliter solotenus prostratus iacuit quasi in extasi et exanimis, valde timens.</p>
+<p>Tandem resurgens et constans in fide pugnauit cum eo cum gladio suo quousque fuerat lassus, et videbatur sibi quasi percuteret t[er]ricidiu[m] more<sup class="footnote-ref" id="fn-anchor-4"><a href="#fn4" id="fnref4">4</a></sup> et prohibuit eum et defendit ex parte dei, dicens Absit quod habeas potestatem nocendi mihi in hac vice, sed recedas.</p>
+<p>Qui rursus euolauit cum eiulatu horribili quasi per spacium sagitte volantis. Tercia vero vice apparuit eidem scissori ferenti crucem gladii sui super pectus suum pre timore et obuiauit ei in figura canis anulati.<sup class="footnote-ref" id="fn-anchor-5"><a href="#fn5" id="fnref5">5</a></sup> Quo viso scissor cogitauit secum animatus in fide. Quid de me fiet? coniurabo eum in nomine trinitatis et per virtutem sanguinis Ihesu Christi de quinque plagis quod loqueretur cum eo et ipsum nullatenus lederet sed staret immobilis et responderet ad interrogata et diceret ei nomen suum et causam pene sue cum remedio competenti. Et fecit ita.</p>
+<p>Qui coniuratus exalans terribiliter et ingemiscens. Sic et sic feci<sup class="footnote-ref" id="fn-anchor-6"><a href="#fn6" id="fnref6">6</a></sup> et excommunicatus sum pro tali facto.</p>
+<p>Vadas igitur ad talem sacerdotem petens absolucionem pro me. Et oportet me implere nouies viginti missas pro me celebrandas. et ex duobus vnum eligas. Aut redeas ad me tali nocte solus, referens responsum de hiis que dixi tibi et docebo te quomodo sanaberis, et ne timeas visum ignis materialis<sup class="footnote-ref" id="fn-anchor-7"><a href="#fn7" id="fnref7">7</a></sup> in medio tempore. Aut caro tua putrescet et cutis tua marcescet et dilabetur a te penitus infra breue. Scias igitur quia hodie non audiuisti missam neque ewangelium Iohannis scilicet ‘In principio’ neque vidisti consecracionem corporis et sanguinis domini obuiaui tibi ad presens, alioquin non haberem plenarie potestatem tibi apparendi.</p>
+<p>Et cum loqueretur cum eo fuit quasi igneus et conspexit per os eius sua interiora et formauit verba sua in intestinis et non loquebatur lingua. Idem quidem scissor petebat licenciam a predicto spiritu quod poterit habere alium socium secum in redeundo, qui respondit. Non. sed habeas super te quatuor euangelia euangelist’ et titulum trihumphalem videlicet Ihesus Nazarenus propter duos alios spiritus hic commorantes, quorum vnus nequit loqui coniuratus et est in specie ignis vel dumi et alter est in figura venatoris, et sunt in obuia valde periculosi. Facias vlterius fidem huic lapidi quia non diffamabis ossa mea nisi sacerdotibus celebrantibus pro me, et aliis ad quos mitteris ex parte mea qui possunt mihi prodesse Qui fidem fecit lapidi de hoc secreto non reuelando prout superius est expressum.</p>
+<p>Demum coniurauit eumdem spiritum quod iret vsque ad hoggebek<sup class="footnote-ref" id="fn-anchor-8"><a href="#fn8" id="fnref8">8</a></sup> vsque ad reditum eius. Qui respondit Non. non. non. eiulando. Cui scissor dixit. Tune vadas ad bilandbanke. et letus efficitur.</p>
+<p>Dictus vero vir infirmabatur per aliquot dies, et statim conualuit et iuit Eboꝝ ad predictum presbiterum, qui dudum excommunicauit eum, petens absolucionem. Qui renuit absoluere eum, vocans sibi alium capellanum ipsum consulendo. At ille vocauit adhuc alium, et alius tercium de absolucione huius musitantes.<sup class="footnote-ref" id="fn-anchor-9"><a href="#fn9" id="fnref9">9</a></sup></p>
+<p>Cui primo dixit scissor. Domine scitis intersigna que suggessi in auribus vestris. Qui respondit. Vere, fili. Tandem post varios tractatus inter partes isdem scissor satisfecit et soluit quinque solidos et recepit absolucionem inscriptam in quadam cedula, adiuratus quod non diffamaret mortuum sed infoderet illam in sepulcro suo penes caput eius secrete. Qua accepta ibat ad quendam fratrem Ric. de Pikeri[n]g nobilem confessorem sciscitans si dicta absolucio esset sufficiens et legitima. Qui respondit quod sic. Tune idem scissor transmit ad omnes ordines fratrum Eboꝝ et fecit fere omnes predictas missas celebrari per duos aut tres dies. et rediens domum fodit predictam absolucionem prout sibi fuerat imperatum in sepulcro.</p>
+<p>Hiis vero omnibus rite completes venit domum, et quidam presumptuosus vicinus eius audiens quod oportet ipsum referre eidem spiritui que gesserat in Eboꝝ in tali nocte, adiurauit eum dicens. Absit quod eas ad predictum spiritum nisi premunias me de regressu tuo et de die et hora. Qui taliter constrictus ne displiceret deo premuniit ipsum excitans a sompno et dixit Iam vado. Si volueris mecum venire, eamus, et dabo tibi partem de scriptis meis que porto super me propter timores nocturnes. Cui alter respondit. Vis tu quod eam tecum ? qui respondit. Tu videris. ego nolo precipere tibi. Tunc alter finaliter dixit. Vadas ergo in nomine domini et deus expediat te in omnibus.<sup class="footnote-ref" id="fn-anchor-10"><a href="#fn10" id="fnref10">10</a></sup></p>
+<p>Quibus dictis venit ad locum constitutum et fecit magnum circulum crucis,<sup class="footnote-ref" id="fn-anchor-11"><a href="#fn11" id="fnref11">11</a></sup> et habuit super se quatuor ewangelia et alia sacra verba, et stetit in medio circuli ponens quatuor monilia<sup class="footnote-ref" id="fn-anchor-12"><a href="#fn12" id="fnref12">12</a></sup> in modum crucis in fimbriis eiusdem circuli, in quibus monilibus inscripta erant verba salutifera scilicet Ihesus Nazarenus etc. et expectauit aduentum spiritus eiusdem.</p>
+<p>Qui demum venit in figura capre et ter circa iuit circulum prefatum dicendo a. a. a. qua coniurata cecidit prona in terra et resurrexit in figura hominis magne stature et horribilis et macilenti ad instar vnius regis mortui depicti.<sup class="footnote-ref" id="fn-anchor-13"><a href="#fn13" id="fnref13">13</a></sup></p>
+<p>Et sciscitatus si labor eius aliqualiter proficeret ei respondit Laudetur deus quod sic. et steti ad dorsum hora nona quando infodisti absolucionem meam in sepulcro et timuisti. nec mirum, quia tres diaboli fuerunt ibidem presentes, qui omnimodis tormentis puniebant me postquam coniurasti me prima vice vsque ad absoluciouem meam, suspicantes se permodicum tempus me in sua custodia habituros ad puniendum. Scias igitur quod die lune proxime futura ego cum aliis triginta spiritibus ibimus in gaudium sempiternum. Tu ergo vadas ad torrentem talem et inuenies lapidem latum quem eleues et sub illo lapide capias petram arenaciam. laues eciam totum corpus cum aqua et frica cum petra et sanaberis infra paucos dies.<sup class="footnote-ref" id="fn-anchor-14"><a href="#fn14" id="fnref14">14</a></sup></p>
+<p>Qui interrogatus de nominibus duorum spirituum respondit. Non possum dicere tibi illorum nomina. Iterum inquisitus de statu eorundem asseruit quod unus illorum erat secularis et bellicosus et non fuit de ista patria, et occidit mulierem pregnantem et non habebit remedium ante diem iudicii, et videbis eum in figura bouiculi sine ore et oculis et auribus, et nullatenus, quamuis coniuretur poterit loqui. Et alius erat religiosus in figura venatoris cum cornu cornantis, et habebit remedium et coniurabitur per quendam puerulum nondum pubescentem domino disponente.</p>
+<p>Postea inquisiuit eundem spiritum de suo proprio statu. qui respondit ei. Tu detines iniuste capucium et togam quondam amici et socii tui in guerra vltra mare. Satisfacies ergo ei vel grauiter lues. Qui respondit Nescio vbi est. Cui alter respondit In tali villa habitat prope castellum de Alnewyke.</p>
+<p>Vlterius inquisitus Quod est culpa mea maxima? respondit. Maxima culpa tua est causa mei. Cui viuus Quo modo et qualiter hoc? Dixit Quia populus peccat de te menciens et alios mortuos scandalizans et dicens Aut est ille mortuus qui coniurabatur aut ille vel ille.</p>
+<p>Et inquisiuit eundem spiritum Quid igitur fiet? Reuelabo ergo nomen tuum. Qui respondit Non. Sed si manseris in tali loco eris diues et in tali loco eris pauper, et habes aliquos inimicos.<sup class="footnote-ref" id="fn-anchor-15"><a href="#fn15" id="fnref15">15</a></sup> Tandem spiritus respondit Non possum longius stare et loqui tibi. Quibus discedentibus ab inuicem predictus surdus et mutus et cecus bouiculus ibat cum viuente vsque ad villam de ampilford, quem coniurauit omnibus modis quibus sciuit, sed nullo modo potuit respondere. Spiritus autem alius per ipsum adiutus consuluit eum quod poneret optima sua scripta in suo capite dum dormiret et non dicas amplius vel minus quam que precipio tibi, et respicias ad terram et ne respicias ignem materialem ista nocte ad minus. Qui rediens domum per dies aliquot grauiter egrotabat.<sup class="footnote-ref" id="fn-anchor-16"><a href="#fn16" id="fnref16">16</a></sup></p>
+<h3 id="iii.-de-spiritu-roberti-filii-roberti-de-boltebi-de-killeburne-comprehenso-in-cimiterio." tabindex="-1">III. De spiritu Roberti filii Roberti de Boltebi de Killeburne comprehenso in cimiterio. <a class="direct-link" href="#iii.-de-spiritu-roberti-filii-roberti-de-boltebi-de-killeburne-comprehenso-in-cimiterio." aria-hidden="true">#</a></h3>
+<p>Memorandum quod predictus Robertus Junior moriebatur et sepeliebatur in cymiterio sed solebat egredi de sepulcro in noctibus et inquietare villanos et deterrere ac canes ville sequebantur eum et latrabant magnaliter. Tandem iuuenes ville mutuo loquebantur proponentes comprehendere eum si aliquo modo potuissent et conuenientes ad cimiterium. Sed illo viso fugerunt omnes exceptis duobus quorum vnus nomine Robertus Foxton comprehendit eum in egressu de cimiterio et posuit eum super le kirkestile, altero acclamante viriliter Teneas firmiter quousque veniam ad te. Cui alter respondit Vadas cicius ad parochianum ut coniuretur, quia deo concedente quod habeo firmiter tenebo vsque ad aduentum sacerdotis. Qui quidem parochialis presbiter festinauit velociter et coniurauit eum in nomine sancte trinitatis et in virtute Ihesu Christi quatinus responderet ei ad interrogata. quo coniurato loquebatur in interioribus visceribus et non cum lingua sed quasi in vacuo dolio,<sup class="footnote-ref" id="fn-anchor-17"><a href="#fn17" id="fnref17">17</a></sup> et confitebatur delicta sua diuersa. Quibus cognitis presbiter absoluit eum sed onerauit predictos comprehensores ne reuelare[n]t aliqualiter confessionem eius, et de cetero requieuit in pace, deo disponente.</p>
+<p>Dicitur autem quod ante assolucionem volebat stare<sup class="footnote-ref" id="fn-anchor-18"><a href="#fn18" id="fnref18">18</a></sup> ad hostia domus et fenestras et sub parietibus et muris quasi auscultans. fforsitan exspectans si quis vellet egredi et coniurare eum suis necessitatibus succurrendo. Referunt aliqui quod erat adiuuans et consenciens neci cuiusdam viri, et fecit alia mala de quibus non est dicendum per singula ad presens.<sup class="footnote-ref" id="fn-anchor-19"><a href="#fn19" id="fnref19">19</a></sup></p>
+<h3 id="iv." tabindex="-1">IV. <a class="direct-link" href="#iv." aria-hidden="true">#</a></h3>
+<p>Iterum tradunt veteres quod quidam nomine Iacobus Tankerlay quondam Rector de Kereby sepeliebatur coram capitulo Bellelande et solebat egredi in noctibus vsque kereby et quadam nocte exsufflauit oculum concubine sue ibidem et dicitur quod abbas et conuentus fecerunt corpus eius effodi de tumulo cum cista sua et coegerunt Rogerum Wayneman cariare illum vsque ad Gormyr[e] et dum iactaret predictam cistam in aquam fer[e] pre timore boues demergerentur. Absit quod ego taliter scribens sim in aliquo periculo, quia sicut audiui a senioribus ita scripsi. Misereatur ei omnipotens, si tamen fuerit de numero saluandorum.<sup class="footnote-ref" id="fn-anchor-20"><a href="#fn20" id="fnref20">20</a></sup></p>
+<h3 id="v." tabindex="-1">V. <a class="direct-link" href="#v." aria-hidden="true">#</a></h3>
+<p>Item est mirabile dictu quod scribo. Dicitur quod quedam mulier cepit quendam spiritum et portauit in domum quandam super dorsum suum in presencia hominum quorum vnus retulit quod vidit manus mulieris demergentes in carne spiritus profunde, quasi caro eiusdem spiritus esset putrida et non solida sed fantastica.<sup class="footnote-ref" id="fn-anchor-21"><a href="#fn21" id="fnref21">21</a></sup></p>
+<h3 id="vi.-de-quodam-canonico-de-newburg-post-mortem-capto-quem-blank-comprehendit." tabindex="-1">VI. De quodam canonico de Newburg post mortem capto quem [blank] comprehendit. <a class="direct-link" href="#vi.-de-quodam-canonico-de-newburg-post-mortem-capto-quem-blank-comprehendit." aria-hidden="true">#</a></h3>
+<p>Contigit quod ipse cum magistro aratorum pariter loquebatur et in agro gradiebatur. Et subito predictus magister fugit valde perterritus [fugit] et alter luctabatur cum quodam spiritu qui dilacerauit turpiter vestes suas. Sed tandem optinuit victoriam et coniurauit eum. Qui coniuratus confitebatur se fuisse talem canonicum de Newburg et excommunicatum pro quibusdam cocliaribus argenti que in quodam loco abscondit. Supplicauit ergo viuenti quod adiret ad locum predictum et acciperet illa, reportando Priori suo et peteret absolucionem. Qui fecit ita et inuenit dicta choclearia argenti in loco memorato Qui absolutus in pace deinceps requieuit. Prefatus tamen vir egrotauit et elanguit per multos dies, et affirmauit quod apparuit sibi in habitu canonicorum.<sup class="footnote-ref" id="fn-anchor-22"><a href="#fn22" id="fnref22">22</a></sup></p>
+<h3 id="vii." tabindex="-1">VII. <a class="direct-link" href="#vii." aria-hidden="true">#</a></h3>
+<p>De quodam spiritu alibi coniurato qui fatebatur se grauiter puniri eo quod erat mercenarius cuiusdam patris familias et furabatur garbas illius quas dabat bobus suis vt apparerent corpulenti; et aliud quod plus se grauat, quod non profunde sed superficietenus arabat terram suam, volens quod boues eius forent pingues, et affirmauit quod erant quindecim spiritus in loco vno grauiter puniti pro delictis suis que faciebant. Supplicauit igitur quod suggereret domino suo pro indulgencia et absolucione quatinus posset optinere remedium oportunum.</p>
+<h3 id="viii." tabindex="-1">VIII. <a class="direct-link" href="#viii." aria-hidden="true">#</a></h3>
+<p>Item de alio spiritu sequente Willelmum de Bradeforth et vociferante how how how. ter. per tres vices. Contigit quod quarta nocte circa mediam noctem remeauit ad nouum locum de villa de Ampilford, et dum rediret per viam audiuit vocem terribilem clamantem longe post se quasi in monte, et paulo post iterum clamauit similiter sed proprius. et tercia vice vociferabatur per viam compendii vltra se.<sup class="footnote-ref" id="fn-anchor-23"><a href="#fn23" id="fnref23">23</a></sup> et demum vidit pallidum equum, et canis eius latrauit paululum, sed valde timens abscondit se inter tibias eiusdem Willelmi. Quo facto Willelmus prohibuit eundem spiritum in nomine domini et in virtute sanguinis Ihesu Christi quod discederet et non impediret viam eius. quo audito recessit ad instar cuiusdam canvas<sup class="footnote-ref" id="fn-anchor-24"><a href="#fn24" id="fnref24">24</a></sup> reuoluentis quatuor angulis et volutabat. Ex quo colligitur quod fuit spiritus desiderans magnaliter coniurari et efficaciter adiuuari.<sup class="footnote-ref" id="fn-anchor-25"><a href="#fn25" id="fnref25">25</a></sup></p>
+<h3 id="ix.-item-de-spiritu-hominis-de-aton-in-clyueland." tabindex="-1">IX. Item de spiritu hominis de Aton<sup class="footnote-ref" id="fn-anchor-26"><a href="#fn26" id="fnref26">26</a></sup> in Clyueland. <a class="direct-link" href="#ix.-item-de-spiritu-hominis-de-aton-in-clyueland." aria-hidden="true">#</a></h3>
+<p>Refertur quod sequebatur virum per quater viginti milliaria qui deberet coniuiare et succurrere ei. Qui coniuratus confitebatur se fuisse excommunicatum pro re quadam [space]/ sex denariorum [space] sed post absolucionem et satisfaccionem factam requieuit in pace. In his omnibus ostendit se deus cum nil malum est impunitum remuneratorem iustum et cum nil bonum a conuerso irremuneratum. Dicitur quod idem spiritus priusquam esset coniuratus iactauit viuentem vltra sepem et suscepit eum ex altera parte in descensu. Qui coniuratus respondit Si fecisses sic imprimis non tibi nocuissem † … ter † <sup class="footnote-ref" id="fn-anchor-27"><a href="#fn27" id="fnref27">27</a></sup> in talibus locis fuisti perterritus et ego feci hoc.</p>
+<p>The stories are continued on the last three pages of the volume (ff. 163 b, 164). I omit one extract ‘de triplici genere confessionis’ and a story taken from a book, of which the catalogue gives this synopsis. A servant guilty of adultery with his mistress, and suspected by his master, is taken to a ‘vates qui habet spiritum phitonis’, but on the way he repents and lashes himself, whereby the spirit loses his memory. Caesarius of Heisterbach has many such tales.</p>
+<h3 id="x.-quomodo-latro-penitens-post-confessionem-euanuit-ab-oculis-demonis." tabindex="-1">X. Quomodo latro penitens post confessionem euanuit ab oculis demonis. <a class="direct-link" href="#x.-quomodo-latro-penitens-post-confessionem-euanuit-ab-oculis-demonis." aria-hidden="true">#</a></h3>
+<p>Contigit olim in Exon. quod quidam fossor magnus laborator et comestor mansit in quadam cellula spaciose domus que habebat plures cellulas cum minis intermixtis et ubi [u : <em>perhaps</em> non nisi ?] vnum domicilium. hie autem fossor esuriens solebat sepius ascendere per quandam scalam in domicilium et amputare carnes ibidem suspensas et coquere et inde comedere eciam in quadragesima. Dominus vero domus videns carnes suas sic amputatas inquisiuit a domesticis suis de hoc facto. Negantibus autem omnibus et se purgantibus per iuramenta. minabatur ille quod vellet ire ad maleficum quendam nigromanticum et sciscitari per ipsum hoc factum mirandum. Quo audito fossor ille valde timuit et ibat ad fratres et confitebatur delictum suum in secreto et sacramentaliter absoluebatur. Prefatus quidem dominus domus vt minabatur ibat ad nigromanticum, et ille vuxit vnguem cuiusdam pueruli et per incantaciones suas inquisiuit ab eo quid videret. Qui respondit Garcionem video coma tonsum. Cui dixit Coniures igitur eum quod appareat tibi in pulcherima forma qua poterit. Et fecit sic. Et affirmauit puerulus Ecce aspicio valde pulcrum equum. Et postea vidit quendam hominem in tali figura quasi fossorem predictum ascendentem per scalam et carnes amputantem cum equo pariter consequente. Et clericus inquisiuit Quid faciunt iam homo et equus? et respondit infans Ecce coquit et comedit carnes illas. Et vlterius inquisitus Et quid nunc facit ? Et ait puerulus Vadunt pariter ad ecclesiam fratrum. sed equus exspectat pre foribus et homo intrat et flexis genibus loquitur cum quodam fratre qui ponit manum suam super caput eius. Iterum clericus inquisiuit a puerulo Quid faciunt nunc ? Cui respondit Ambo simul euanuerunt ab oculis meis et amplius non video eos, et nescio sine dubio vbi sunt.<sup class="footnote-ref" id="fn-anchor-28"><a href="#fn28" id="fnref28">28</a></sup></p>
+<h3 id="xi.-de-opere-dei-mirando-qui-vocat-ea-que-non-sunt.-tanquam-ea-que-sunt.-et-qui-potest-facere-quando-et-quicquid-vult.-et-de-quodam-miro." tabindex="-1">XI. De opere dei mirando qui vocat ea que non sunt. tanquam ea que sunt. et qui potest facere quando et quicquid vult. et de quodam miro. <a class="direct-link" href="#xi.-de-opere-dei-mirando-qui-vocat-ea-que-non-sunt.-tanquam-ea-que-sunt.-et-qui-potest-facere-quando-et-quicquid-vult.-et-de-quodam-miro." aria-hidden="true">#</a></h3>
+<p>Est memorie comendatum quod quidam homo de Clyueland cognomine Ricardus Rountre relinquens vxorem suam grauidam ibat ad tumbam sancti Iacobi cum aliis quam pluribus qui quadam nocte pernoctabant in quadam silua prope viam regiam. hinc est quod quilibet illorum vigilabat per quoddam spacium noctis propter timorem nocturnum, et ceteri securius dormiebant. Contigit quod in illa parte noctis qua prefatus homo fuit custos et vigil noctis audiebat magnum sonitum transiencium per viam regalem. et aliqui sedebant et equitabant super equos oues et boues et quidam super alia animalia, et vniuersa pecora que fuerunt sua mortuaria quando moriebantur. Tandem vidit quasi paruulum volutantem in quadam caliga super terram. Et coniurauit ipsum Quis esset et quare sic volutasset? Respondit Non oportet te me coniurare Tu enim eras pater meus et ego filius tuus abortiuus sine baptismo et absque nomine sepelitus. Quo audito isdem peregrinus exuit se suam camisiam et induit puerulum suum imponens ei nomen in nomine sancte Trinitatis. et tulit secum illam veterem caligam in testimonium huius rei. Qui quidem infans taliter nominatus vehementer exultabat et de cetero iuit pedibus suis erectus qui super terram antea volutabat. Completa vero peregrinacione fecit conuiuium vicinis suis et peciit ab vxore sua caligas suas. Que ostendit vnam et alteram non inuenit caligam. Tune maritus suus ostendit illi caligam in quo puer inuoluebatur, et hoc mirabatur. Obstetricibus autem confitentibus veritatem de morte et sepultura pueri in predicta caliga fiebat diuorcium inter maritum et vxorem eius quod fuit compater filii sui taliter abortiui. Sed credo quod hoc diuorcium displicuit valde deo.<sup class="footnote-ref" id="fn-anchor-29"><a href="#fn29" id="fnref29">29</a></sup></p>
+<p>[This page is difficult to read, blurred, and the writing in places gone.]</p>
+<h3 id="xii.-de-sorore-veteris-ade-de-lend-comprehensa-post-mortem-secundum-relacionem-antiquorum." tabindex="-1">XII. De sorore veteris Ade de Lend comprehensa post mortem secundum relacionem antiquorum. <a class="direct-link" href="#xii.-de-sorore-veteris-ade-de-lend-comprehensa-post-mortem-secundum-relacionem-antiquorum." aria-hidden="true">#</a></h3>
+<p>Memorandum quod predicta mulier in cimiterio de Ampilford sepeliebatur et infra breue post mortem comprehendebatur per Willelmum Trower seniorem et coniurata confitebatur se ipsam peragrare viam suam in nocte propter quasdam cartas quas tradidit iniuste Ade fratri suo. Hinc est quod olim quadam discordia otta inter maritum suum et ipsam, in preiudicium predicti viri sui et propriorum filiorum optulit fratri suo predictas cartas. ita quod post mortem suam frater suus expulsit maritum suum de domo sua, videlicet vno toft et crofte cum pertinenciis in Ampilford, et in Heslarton de vna bouata terre cum pertinenciis, per violenciam. Supplicabat igitur predicto Willelmo quod suggereret eidem fratri quod vellet redonare marito suo et filiis easdem cartas, et restituere illis terram suam. alioquin nullo modo posset in pace requiescere ante diem iudicii. Qui quidem Willelmus secundum iussionem suam suggessit predicto Ade. sed ille renuit cartas restituere, dicens non credo […] hiis dictis. Cui ille. Verus est in omnibus sermo meus, vnde deo concedente audietis sororem vestram vobis colloquentem de hac materia infra breue. Et altera nocte rursus comprehendit illam ac attulit ad cameram prefati Ade, et loquebatur cum eo. Cui respondit induratus frater suus secundum quosdam. Si ambulaueris imperpetuum nolo predictas cartas redonare. Cui respondit illa ingemiscens. Iudicet deus inter me et te ob quam causam. Scias ergo quia vsque ad mortem tuam minime requiescam. vnde post mortem tuam tu peragrabis loco mei. Dicitur vlterius quod dextera manus illius pendebat iusum et erat valde nigra. Et interrogabatur qua de causa, respondebat quia sepius pugnando [?] extendit illam, iurando falsum. Tandem coniurata fuit ad alterum locum propter timorem nocturnum et terrorem gentis ville. Peto tamen veniam si forte offendi in scribendo contra veritatem. Dicitur tamen quod Adam [de lond <em>above line</em>] iunior vero heredi partim satisfecit post mortem Ade senioris.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>So in II a ghost is said to appear ‘in specie dumi’ (as I read it), i.e. of a thorn-bush. In several of these stories the ghosts are liable to many changes of form. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>The reason of his ‘walking’ and how he could be helped. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>The word is a mystery to me. It seems to begin with <em>e</em> and ends with <em>di</em>. There is a mark of contraction. <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p><em>more</em> I take to be the genitive of <em>mora</em>, a moor or marsh. The other word I do not know nor find, but guess it to mean a turf or peat-stack. <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn5" class="footnote-item"><p>A dog with a chain on its neck. <a href="#fnref5" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn6" class="footnote-item"><p>Great pains are taken throughout to conceal the name of the ghost. He must have been a man of quality, whose relatives might have objected to stories being told about him. <a href="#fnref6" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn7" class="footnote-item"><p>At the end of the story we have ‘ne respicias ignem materialem ista nocte ad minus’. In the Danish tales something like this is to be found. Kristensen, <em>Sagn og overtro</em>, 1866, no. 585: After seeing a phantom funeral the man ‘was wise enough to go to the stove and look at the fire before he saw (candle- or lamp-) light. For when people see anything of the kind they are sick if they cannot get at fire before light.’ Ibid. no. 371: ‘he was very sick when he caught sight of the light.’ The same in no. 369. In part ii of the same (1888), no. 690 : ‘When you see anything supernatural, you should peep over the door before going into the house. You must see the light before the light sees you.’ Collection of 1883, no. 193 : ‘When he came home, he called to his wife to put out the light before he came in, but she did not, and he was so sick they thought he would have died.’ These examples are enough to show that there was risk attached to seeing light after a ghostly encounter. Does <em>ignis materialis</em> mean simply a fire of wood here? <a href="#fnref7" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn8" class="footnote-item"><p>I suppose, in order that the ghost might not haunt the road in the interval before the tailor’s return. <a href="#fnref8" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn9" class="footnote-item"><p>The reluctance of the priest at York to absolve, and the number of advisers called in, testify to the importance of the case. <a href="#fnref9" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn10" class="footnote-item"><p>The conduct of the officious neighbour who insists upon being informed of the tailor’s assignation with the ghost and then backs out of accompanying him, is amusing. <a href="#fnref10" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn11" class="footnote-item"><p>Whether a circle enclosing a cross or a circle drawn with a cross I do not know. <a href="#fnref11" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn12" class="footnote-item"><p><em>monilia</em>: Small ‘reliquaries’ such as could be worn on the person. <a href="#fnref12" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn13" class="footnote-item"><p>I think the allusion is to the pictures of the Three Living and Three Dead so often found painted on church-walls. The Dead and Living are often represented as kings. <a href="#fnref13" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn14" class="footnote-item"><p>The need of a prescription for healing the tailor was due to the blow in the side which the crow (raven ?) had given him. <a href="#fnref14" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn15" class="footnote-item"><p>This docs not seem to follow logically upon the prohibition to tell the ghost’s name. I take it as advice to the tailor to change his abode. ‘If you take up your abode—-reside—-in such a place you will prosper; if in such a place you will be poor; and you have some enemies (where you now are).’ <a href="#fnref15" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn16" class="footnote-item"><p>The text has been reparagraphed from the original, for better legibility in an online format. – N.B.Z <a href="#fnref16" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn17" class="footnote-item"><p>‘quasi in vacuo dolio’ is a picturesque touch. These ghosts do not twitter and squeak like those of Homer. <a href="#fnref17" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn18" class="footnote-item"><p>‘volebat stare’, ‘he would stand’. <a href="#fnref18" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn19" class="footnote-item"><p>There is the same caution here about mentioning the crimes of the dead man. <a href="#fnref19" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn20" class="footnote-item"><p>When Wayneman was throwing the coffin into Gormyre the oxen which drew his cart almost sank in the marsh for fear. This, I suppose, is the sense of the rather obscure sentence. <a href="#fnref20" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn21" class="footnote-item"><p>This is most curious. Why did the woman catch the ghost and bring it indoors? <a href="#fnref21" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn22" class="footnote-item"><p>A daylight ghost, as it seems. The seer and the head ploughman are walking together in the field. Suddenly the ploughman has a panic and runs off, and the other finds himself struggling with a ghost. Probably the prior had excommunicated the stealer of the spoons ‘whoever he might be’ without knowing who he was, as in the case of the Jackdaw of Rheims. <a href="#fnref22" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn23" class="footnote-item"><p>‘per viam compendii vltra se’, at the cross-road ahead of him. <a href="#fnref23" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn24" class="footnote-item"><p>Du Cange gives the forms ‘canava’, ‘canavis’, and ‘canvoys’. <a href="#fnref24" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn25" class="footnote-item"><p>For three nights William of Bradford had heard the cries. On the fourth night he met the ghost. And I suspect he must have been imprudent enough to answer the cries, for there are many tales Danish and other, of persons who answer the shrieking ghost with impertinent words, and the next moment they hear it close to their ear. Note the touch of the frightened dog. <a href="#fnref25" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn26" class="footnote-item"><p>‘Aton’, the catalogue suggests, may be Ayton. The ghost throws him over the hedge and catches him as he falls on the other side. So the Troll, whose (supposed) daughter married the blacksmith, when he heard that all the villagers shunned her, came to the church on Sunday before service when all the people were in the church yard and drove them into a compact group. Then he said to his daughter, ‘Will you throw or catch?’ ‘I will catch,’ said she, in kindness to the people. ‘Very well, go round to the other side of the church.’ And he took them one by one and threw them over the church, and she caught them and put them down unhurt.’ Next time I come,’ said the Troll, ‘she shall throw, and I will catch—if you don’t treat her better.’ Not very relevant, but less known than it should be. <a href="#fnref26" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn27" class="footnote-item"><p>The word after ‘nocuissem’ I cannot read: it ends <em>-ter</em>. <a href="#fnref27" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn28" class="footnote-item"><p>The wizard ‘anoints’ the nail of the child, not the palm of the hand. He, I suppose, and not the master of the house, is the clericus who asks the questions. <a href="#fnref28" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn29" class="footnote-item"><p>There are multitudinous examples of the nightly processions of the dead, but I do not know another case in which they ride on their own ‘mortuaries’ (the beasts offered to their church, or claimed by it, at their decease): it is a curious reminiscence of the pagan fashion of providing means of transport for the dead by burying beasts with them. Evidently the wife was not accessory to the indecent burial of the child, and the sympathy of the writer is with her. The divorce does seem superfluous, since, though sponsors were not allowed to marry, here was but one sponsor: but I know not the canon law. <a href="#fnref29" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+</article>
+<script src="/TwelveMedievalGhostStories/js/sidenotes.js" defer></script>
+    </main>
+
+    <footer>
+      
+      <div class="footer--copyright">Original OCR transcripts and introductory text by <a href="https://github.com/mimno/TwelveMedievalGhostStories">David Mimno</a>.<br>
+       Website 2024 by Nina Zumel.
+      
+      </div>
+    </footer>
+
+    <!-- Current page: /TwelveMedievalGhostStories/latin/ -->
+  </body>
+  </html>
