@@ -2,7 +2,6 @@
 title: Twelve Medieval Ghost Stories
 subtitle: English Translation
 layout: layouts/page.njk
-permalink: "/english/"
 eleventyNavigation:
   key: English Translation
   order: 2

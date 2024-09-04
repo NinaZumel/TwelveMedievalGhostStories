@@ -2,7 +2,6 @@
 title: Twelve Medieval Ghost Stories
 subtitle: The Latin Text
 layout: layouts/page.njk
-permalink: "/latin/"
 eleventyNavigation:
   key: Latin Text
   order: 1
