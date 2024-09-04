@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "text": "Posts",
+      "url": "/posts"
+    }
+  ],
+  "footer_items": [
+    {
+      "text": "RSS (Everything)",
+      "url": "/feed/feed.xml"
+    }
+  ]
+}

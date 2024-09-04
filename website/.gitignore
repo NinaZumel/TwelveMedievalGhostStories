@@ -1,0 +1,19 @@
+_site/
+node_modules/
+# package-lock.json
+
+# Environment Vars
+.env
+
+# Eleventy error report
+report.*
+
+# Text Editors
+.nova
+.vscode
+*/.obsidian
+
+# random
+.DS_Store
+*/.DS_Store
+*~

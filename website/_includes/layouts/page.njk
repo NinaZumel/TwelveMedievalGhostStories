@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+<article class="content-main container">
+<h1>{% markdown %}{{ display_title or title }}{% endmarkdown %}</h1>
+<h2>{% markdown %}{{ subtitle }}{% endmarkdown %}</h2>
+{{ content | safe }}
+</article>
+<script src="{{ '/js/sidenotes.js' | url }}" defer></script>

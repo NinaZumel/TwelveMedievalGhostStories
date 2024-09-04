@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="view-transition" content="same-origin">
+    <title>{{ title or metadata.title }}</title>
+    <meta name="description" content="{{ description or metadata.description }}">
+
+    {#-
+		CSS bundles are provided via the `eleventy-plugin-bundle` plugin:
+		1. You can add to them using `{% css %}`
+		2. You can get from them using `{% getBundle "css" %}` or `{% getBundleFileUrl "css" %}`
+		3. You can do the same for JS: {% js %}{% endjs %} and <script>{% getBundle "js" %}</script>
+		4. Learn more: https://github.com/11ty/eleventy-plugin-bundle
+		#}
+
+		{#- Add an arbitrary string to the bundle #}
+		{%- css %}* { box-sizing: border-box; }{% endcss %}
+		{#- Add the contents of a file to the bundle #}
+		{%- css %}{% include "public/css/index.css" %}{% endcss %}
+		{#- Or add from node_modules #}
+		{# {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %} #}
+
+		{#- Render the CSS bundle using Inlined CSS (for the fastest site performance in production) #}
+		<style>{% getBundle "css" %}</style>
+		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
+		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
+
+
+    {# -- old way to get the css
+    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/prism-a11y-dark.css' | url }}" media="print" onload="this.media='all'">
+    #}
+
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+    <link rel="icon" href="/img/meta/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/touchicon-196.png" sizes="196x196" />
+
+    <!-- Open Graph tags -->
+    {% set ogUrl %}{{ page.url | url | absoluteUrl(metadata.url) }}{% endset %}
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ ogUrl }}" />
+    <meta property="og:title" content="{{ title or metadata.title }}" />
+    {% if content_type == "book" %}
+    {% set bookThumbnail = metadata.feed_reading.img_base_url + cover_image %}
+    <meta property="og:image" content="{{ bookThumbnail }}" />
+    <meta property="og:description" content="by {{ author }}" />
+    {% else %}
+    <meta property="og:image" content="{{ metadata.profile_image }}" />
+    <meta property="og:description" content="{{ description or metadata.description }}" />
+    {% endif %}
+
+  </head>
+  <body>
+    <header>
+      <span class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></span>
+
+      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+			<nav class="nav">
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+				{%- for entry in collections.all | eleventyNavigation %}
+					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+				{%- endfor %}
+				</ul>
+			</nav>
+
+      {# The original navigation
+      <ul class="nav">
+      {%- for item in navigation.items %}
+        <li class="nav-item"><a href="{{ item.url | url }}" {{helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a></li>
+      {%- endfor %}
+      #}
+
+    </header>
+
+    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+      {{ content | safe }}
+    </main>
+
+    <footer>
+      {# <div class="footer--copyright">Copyright © {{ site.buildTime | date("yyyy") }} Nina Zumel. #}
+      <div class="footer--copyright">Original OCR transcripts and introductory text by <a href="https://github.com/mimno/TwelveMedievalGhostStories">David Minmo</a>.<br>
+       Website {{ site.buildTime | date("yyyy") }} by Nina Zumel.
+      {# 
+      {%- for item in navigation.footer_items %}
+        <li class="nav-item"><a href="{{ item.url | url }}" {% if item.rel %} rel="{{item.rel}}" {% endif %} {{helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a></li>
+      {%- endfor %}
+      </ul>
+      #}
+      </div>
+    </footer>
+
+    <!-- Current page: {{ page.url | url }} -->
+  </body>
+  </html>

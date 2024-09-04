@@ -1,0 +1,34 @@
+---
+title: Posts Archive
+description: Posts Archive for Sidenotes.
+layout: layouts/base.njk
+templateClass: tmpl-posts-list
+permalink: 'posts{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
+paginationPrevText: 'Newer posts'
+paginationNextText: 'Older posts'
+paginationAnchor: '#post-list'
+pagination:
+  data: collections.posts
+  size: 8
+  alias: postslist
+eleventyExcludeFromCollections: false
+---
+<div class="content-main container">
+<h1>Posts</h1>
+<div class="post--meta">You can also browse all posts by <a href="{{ '/posts/years/' | url }}">year</a> or by <a href="{{ '/tags/' | url }}">tag</a>.</div>
+
+{% include "postslist.njk" %}
+{% include "partials/list-pagination.njk" %}
+</div>
+
+{#
+
+I need this, to add to the nav bar
+eleventyExcludeFromCollections: false
+eleventyNavigation:
+  key: Posts
+  order: 1
+
+But I'm hiding it from the nav bar right now.
+
+#}

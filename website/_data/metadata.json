@@ -1,0 +1,18 @@
+{
+  "title": "Twelve Medieval Ghost Stories",
+  "url": "https://ninazumel.com/TwelveMedievalGhostStories/",
+  "domain": "ninazumel.com",
+  "language": "en",
+  "description": "An Online Version of the Byland Abbey Ghost Stories",
+  "feed": {
+    "subtitle": "An Online Version of the Byland Abbey Ghost Stories",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://www.ninazumel.com/TwelveMedievalGhostStories/feed/feed.xml",
+    "id": "https://www.ninazumel.com/TwelveMedievalGhostStories/"
+  },
+  "author": {
+    "name": "Nina Zumel",
+    "email": "nzumel@mzlabs.com"
+  }
+}

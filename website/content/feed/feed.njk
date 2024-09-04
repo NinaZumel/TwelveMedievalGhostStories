@@ -1,0 +1,37 @@
+---
+# Metadata comes from _data/metadata.json
+permalink: "{{ metadata.feed.path }}"
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>{{ metadata.title }} | All Posts</title>
+	<subtitle>{{ metadata.feed.subtitle }}</subtitle>
+	{% set absoluteUrl %}{{ metadata.feed.path | url | absoluteUrl(metadata.url) }}{% endset %}
+	<link href="{{ absoluteUrl }}" rel="self"/>
+	<link href="{{ metadata.url }}"/>
+	<updated>{{ collections.combined | reverse | rssLastUpdatedDate }}</updated>
+	<id>{{ metadata.feed.id }}</id>
+	<author>
+		<name>{{ metadata.author.name }}</name>
+		<email>{{ metadata.author.email }}</email>
+	</author>
+	{%- for post in collections.combined | head(20) %}
+	{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+	<entry>
+		<title>{{ post.data.title }}</title>
+		<link href="{{ absolutePostUrl }}"/>
+		<updated>{{ post.date | rssDate }}</updated>
+		<id>{{ absolutePostUrl }}</id>
+		{% if post.data.content_type == "book" %}
+		{% set book_metadata %}<p>{% image metadata.feed_reading.img_base_url + post.data.cover_image, post.data.title + " cover image" , "book_thumb" %}</p><p>Started Reading: {{post.data.start_date | readableDate }}</p><p>Finished Reading: {{post.data.end_date | readableDate }}</p>{% endset %}
+		<content type="html">{{book_metadata | htmlToAbsoluteUrls(absolutePostUrl)}}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+		{% elif post.data.content_type == "film" %}
+    {% set film_metadata %}<p>{% image metadata.feed_reading.img_base_url + post.data.cover_image, post.data.title + " cover image" , "book_thumb" %}</p><p>Watched: {{post.data.watched_date | readableDate }}</p>{% endset %}
+    <content type="html">{{film_metadata | htmlToAbsoluteUrls(absolutePostUrl)}}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    {% else %}
+		<content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+		{% endif %}
+	</entry>
+	{%- endfor %}
+</feed>
