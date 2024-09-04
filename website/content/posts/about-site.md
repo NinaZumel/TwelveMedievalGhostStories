@@ -10,7 +10,7 @@ eleventyNavigation:
   order: 3
 ---
 
-In 2019, David Minmo scanned in the Latin text of M.R. James's transcription of the Byland Abbey ghost stories, as well as the 1924 English translation of these stories by A.J. Grant. He archived his corrected scans as Markdown documents, on Github. Some four years later, I found that repository, forked it, and restructured[^1] the documents to be more readable online. This involved separating the stories into separate documents, in order to preserve the footnotes.
+In 2019, David Mimno scanned in the Latin text of M.R. James's transcription of the Byland Abbey ghost stories, as well as the 1924 English translation of these stories by A.J. Grant. He archived his corrected scans as Markdown documents, on Github. Some four years later, I found that repository, forked it, and restructured[^1] the documents to be more readable online. This involved separating the stories into separate documents, in order to preserve the footnotes.
 
 [^1]: I originally only restructured the translation, as that was what primarily interested me. Recently, I went back and restructured M.R. James's original Latin transcription, as well.
 
