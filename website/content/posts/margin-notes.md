@@ -19,7 +19,7 @@ After more searching, I found [Mark Llobrera's "Sidenotes" article](https://mark
 
 This solution only supports numbered notes, but it does a *heroic* job of spacing them out. For narrow browser widths, the notes behave like ordinary footnotes, falling to the bottom of the page, with "back" buttons. For wider widths, when the notes are in the margin, clicking on the note superscript highlights the matching note,[^3] which helps when they are not aligned.
 
-Overall, I'm happy with this solution. There are still some little things: I personally prefer a slightly wider text column than this template uses, and I've noticed that the main text sometimes bleeds into the margin notes (see note 27 in the [Latin text](/latin/), for example). I've tried to fix these issues, but this grid setup is incredibly brittle, so I've left it alone. I might (someday) try to recreate a simpler version of this template, but this is great, for a first attempt.
+Overall, I'm happy with this solution. There are still some little things: I personally prefer a slightly wider text column than this template uses, and I've noticed that the main text sometimes bleeds into the margin notes (see note 27 in the [Latin text](/pages/latin/), for example). I've tried to fix these issues, but this grid setup is incredibly brittle, so I've left it alone. I might (someday) try to recreate a simpler version of this template, but this is great, for a first attempt.
 
 One thing to mention, if you are interested in playing with this implementation: while working on the site with a live local preview up, I found that any change to the site will drop the notes to the bottom. But refreshing the page puts the notes back in the margin. Something to be aware of.
 
